@@ -1,0 +1,471 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Sitio Web",
+    "section": "",
+    "text": "Libros\n\n\nInformación\n\n\nEstadística\n\n\nSQL\n\n\nMatemáticas\n\n\nCosmos\n\n\nArduino\n\n\nR \n\n\nCircuitos\n\n\nLanding pages\n\n\nDatos\n\n\nCopywritting\n\n\nPython\n\n\nBases de datos\n\n\nHistoria\n\n\nPoblación\n\n\nC\n\n\nRaspberrry Pi\n\n\nhtml\n\n\nLinux\n\n\nGNU\n\n\nDashboard"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Header\n\n\n<h4 class=\"card-title\">Dark card title</h4>\n<p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n\n\n\nGNU\n\n\nDashboard\n\n\nEl editor\nEntusiasta de las tecnologías de la información, desde hace un tiempo he venido explorando algunos de estos conceptos y herramientas que hacen parte del proceso de desarrollo de un sistema de información (software); como por ejemplo el lenguaje unificado de modelado (UML por sus siglas en inglés), lenguajes informáticos como SQL (para interactuar con gestores de bases de datos relacionales), HTML (para crear sitios web); así como herramientas que me permiten leer, editar, borrar y crear bases de datos, como lo son los lenguajes de programación Python y R, siendo este último en el cual encuentro una mayor familiaridad al momento de realizar análisis descriptivo, crear documentos (html, pdf, diapositivas, word, LaTeX), presentar gráficos y desarrollar tableros de datos estáticos y dinámicos.\nParalelo a esto, he tenido contacto con conceptos de IoT y he implementado algunos de ellos a través de plataformas de hardware libre como Arduino, Raspberry, aprendiendo de manera autónoma (apoyado en páginas web, cursos virtuales, video tutoriales) y realizando pequeños proyectos personales de automatización y captura de datos con sensores. Con un conocimiento básico en circuitos eléctricos, he podido realizar algunos prototipos fácil de reproducir.\nPartidario de la democratización del conocimiento, el cual creo, debe llegar a cada ser humano para beneficio propio y el de todo ser vivo de este planeta; trato de implementar software de código abierto en mis proyectos, al menos en la mayoría de ellos, para que pueda ser fácil de compartir, reproducir y editar para otras personas.\n\n“El conocimiento adquiere verdadero valor cuando se comparte”.\n\n\n\nConceptos\nUn sistema de información es una herramienta vital para cualquier organización o empresa, ya que ayuda a gestionar y organizar de manera eficiente la gran cantidad de datos que se manejan en su día a día. En la actualidad, el desarrollo de estos sistemas es una tarea crítica en la mayoría de los negocios, ya que permite automatizar procesos, aumentar la productividad, mejorar la toma de decisiones y, en última instancia, obtener una ventaja competitiva en el mercado.\nEl desarrollo de un sistema de información implica la planificación, diseño, implementación y mantenimiento de una solución informática que cumpla con los requisitos específicos de una organización. Esto puede incluir el desarrollo de software personalizado, la integración de sistemas existentes, la adopción de tecnologías emergentes y la gestión de datos y su seguridad.\nLas bases de datos conforman el insumo de estos sistemas y su construcción se desarrolla en diferentes etapas que requieren del conocimiento de múltiples disciplinas como las ciencias de la computación, telecomunicaciones, electrónica, etc.\nSi bien una base de datos, puede ser un conjunto físico de elementos, como los libros de una biblioteca, en el contexto de las tecnologías de la información este concepto hace referencial a los datos almacenados de manera digital (bits) en ciertos dispositivos electrónicos, estos dispositivos suelen ser unidades de almacenamiento (HDD, SSD) que pueden estar integrados en un servidor.\n\n\nOpinión\nLa precisión de los conceptos mencionados y desarrollados en este sitio web están abiertos al error, sólo es la opinión del creador de este contenido; se sugiere una lectura más profunda para quien interese los temas propuestos.\nEsta es una página web que funciona como laboratorio de aprendizaje, para la persona que escribe estas líneas. Es una forma de profundizar en algunas herramientas de manejo y exploración de datos y en desarrollo de sistemas de información.\nEntre algunas de las cosas que se presentan en este sitio web:\n\nLenguaje R.\nTableros de datos\nExploración de bases de datos con R y RStudio.\nManejo de bases de datos con R.\nMySQL\nBases de datos relacionales.\nProgramación de placas Arduino.\nLenguaje html.\nDocumentos con Markdown."
+  },
+  {
+    "objectID": "paginamardown.html",
+    "href": "paginamardown.html",
+    "title": "Blog",
+    "section": "",
+    "text": "Un botón para usar\n\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+  },
+  {
+    "objectID": "paginamardown.html#including-plots",
+    "href": "paginamardown.html#including-plots",
+    "title": "Blog",
+    "section": "Including Plots",
+    "text": "Including Plots\nYou can also embed plots, for example:\n\n\n\n\n\nNote that the echo = FALSE parameter was added to the code chunk to prevent printing of the R code that generated the plot."
+  },
+  {
+    "objectID": "paginamardown.html#r-markdown",
+    "href": "paginamardown.html#r-markdown",
+    "title": "Blog",
+    "section": "R Markdown",
+    "text": "R Markdown\n\nUn botón para usar\n\nThis is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.\nWhen you click the Knit button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:\n\nsummary(cars)\n\n     speed           dist       \n Min.   : 4.0   Min.   :  2.00  \n 1st Qu.:12.0   1st Qu.: 26.00  \n Median :15.0   Median : 36.00  \n Mean   :15.4   Mean   : 42.98  \n 3rd Qu.:19.0   3rd Qu.: 56.00  \n Max.   :25.0   Max.   :120.00"
+  },
+  {
+    "objectID": "plantilla1.html",
+    "href": "plantilla1.html",
+    "title": "Big Data Derby",
+    "section": "",
+    "text": "Esto es un texto que puedo poner por defecto en todas las páginas del sitio web."
+  },
+  {
+    "objectID": "plantilla1.html#column",
+    "href": "plantilla1.html#column",
+    "title": "Big Data Derby",
+    "section": "Column",
+    "text": "Column\n\nVelocidad\n\n\n\n\n\n\n\n\nPosición\n\n\n1\n\n\n\n\nAceleración\n\n\n\n\n\n\n\n\nCalorías\n\n\n603\n\n\n\n\nPorcentaje de carrera"
+  },
+  {
+    "objectID": "plantilla1.html#row",
+    "href": "plantilla1.html#row",
+    "title": "Big Data Derby",
+    "section": "Row",
+    "text": "Row\n\nPanel1\n\n\n\n\n\n\n\n\n\nPanel2\nNo supe como poner las pestañas .tabset sin que se cambie el formato de el tablero.\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE"
+  },
+  {
+    "objectID": "plantilla1.html#row-1",
+    "href": "plantilla1.html#row-1",
+    "title": "Big Data Derby",
+    "section": "Row",
+    "text": "Row\n\nPanel3\n\n\n\n\n\n\n\n\n\nPanel4\nNo supe como poner las pestañas .tabset sin que se cambie el formato de el tablero.\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE\n\n\nError : The fig.showtext code chunk option must be TRUE"
+  },
+  {
+    "objectID": "plantilla1.html#column-1",
+    "href": "plantilla1.html#column-1",
+    "title": "Big Data Derby",
+    "section": "Column",
+    "text": "Column\n\nVelocidad\n\n\n\n\n\n\n\n\nCarreras ganadas\n\n\n3\n\n\n\n\nAceleración\n\n\n\n\n\n\n\n\nCalorías\n\n\n603\n\n\n\n\nPorcentaje de carrera"
+  },
+  {
+    "objectID": "plantilla1.html#row-2",
+    "href": "plantilla1.html#row-2",
+    "title": "Big Data Derby",
+    "section": "Row",
+    "text": "Row\n\nPanel2-1\n\n\nPanel2-2\nNo supe como poner las pestañas .tabset sin que se cambie el formato de el tablero."
+  },
+  {
+    "objectID": "plantilla1.html#row-3",
+    "href": "plantilla1.html#row-3",
+    "title": "Big Data Derby",
+    "section": "Row",
+    "text": "Row\n\nPanel2-3\n\n\nPanel2-4\nNo supe como poner las pestañas .tabset sin que se cambie el formato de el tablero."
+  },
+  {
+    "objectID": "plantilla1.html#column-2",
+    "href": "plantilla1.html#column-2",
+    "title": "Big Data Derby",
+    "section": "Column",
+    "text": "Column\n\nPest1\n\n\nPest2"
+  },
+  {
+    "objectID": "plantilla1.html#column-3",
+    "href": "plantilla1.html#column-3",
+    "title": "Big Data Derby",
+    "section": "Column",
+    "text": "Column\n\nMed1\n\n\n\n\n\n\n\n\nMed2\n\n\n\n\n\n\n\n\nMed3"
+  },
+  {
+    "objectID": "plantilla1.html#column-4",
+    "href": "plantilla1.html#column-4",
+    "title": "Big Data Derby",
+    "section": "Column",
+    "text": "Column\n\np4\n\n\np3\n\n\np2\n\n\np1"
+  },
+  {
+    "objectID": "desc_LaTeX.html",
+    "href": "desc_LaTeX.html",
+    "title": "Descifrando LaTeX",
+    "section": "",
+    "text": "LaTeX es un sistema de preparación de documentos para la composición de alta calidad. Se utiliza para artículos, trabajos de investigación, documentos científicos y técnicos, presentaciones, textos jurídicos, facturas, libros, informes y casi cualquier forma de publicación.\nLaTeX es una buena forma de presentación de texto para la comunicación y publicación de documentos científicos. LaTeX está disponible como software libre.\nLaTeX alienta a los autores a no preocuparse demasiado por la apariencia de sus documentos, sino a concentrarse en obtener el contenido correcto."
+  },
+  {
+    "objectID": "desc_LaTeX.html#formato-de-los-comandos-latex.",
+    "href": "desc_LaTeX.html#formato-de-los-comandos-latex.",
+    "title": "Descifrando LaTeX",
+    "section": "Formato de los comandos LaTeX.",
+    "text": "Formato de los comandos LaTeX.\n\\nombredelcomando[Argumento Opcional]{Argumento Obligatorio}\n\nó\n\n\\nombredelcomando{Argumento Obligatorio}[Argumento Opcional]\nTodos los comandos en LaTeX tienen esta forma. Inician con Backslash \\ seguido por el nombre del comando, argumentos opcionales dentro de corchetes [] (si los tiene), y argumentos obligatorios dentro de las llaves {} (si los hay).\nAlgunos ejemplos:\n\\documentclass{article}  \n\\documentclass[11pt]{article}\n\\documentclass{article}[11pt]  \n\nNota: Los comandos son sensibles a las mayúsculas y generalmente no hay espacio en los comandos."
+  },
+  {
+    "objectID": "desc_LaTeX.html#ambientes-o-entornos-en-latex",
+    "href": "desc_LaTeX.html#ambientes-o-entornos-en-latex",
+    "title": "Descifrando LaTeX",
+    "section": "Ambientes o entornos en LaTeX",
+    "text": "Ambientes o entornos en LaTeX\n\\begin{environment}\n...\n...\n\\end{environment}\nCon LaTeX, se trabajará en algunos ambientes como estos, los cuales son usados para edición de documentos, insertar y crear ecuaciones y creación de tablas:\n\\begin{document}...  end\\{document}\n\n\\begin{equation}...  end\\{equation} \n\n\\begin{tabular}...  end\\{tabular}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#un-primer-ejemplo",
+    "href": "desc_LaTeX.html#un-primer-ejemplo",
+    "title": "Descifrando LaTeX",
+    "section": "Un primer ejemplo",
+    "text": "Un primer ejemplo\nDigitar los siguientes comandos en el editor LaTeX para obtener un primer documento.\ndocumentclass{article}\n\\begin{document}\nEste es el primero de muchos documentos a crear con LaTeX ...\n\n\\end{document}\nEjecutando los comandos anteriores se obtiene:\n\n La imagen muestra la distribución de las (3) ventanas correspondientes al editor TeXMaker. De izquierda a derecha, marcadores del documento, ventana de edición del código y ventana de visualización del documento (pdf). Cuando se ejecuta el código se crea un archivo con extensión .tex en la carpeta de trabajo, el cual contiene los comandos LaTeX."
+  },
+  {
+    "objectID": "desc_LaTeX.html#estructura-del-documento-latex",
+    "href": "desc_LaTeX.html#estructura-del-documento-latex",
+    "title": "Descifrando LaTeX",
+    "section": "Estructura del documento LaTeX",
+    "text": "Estructura del documento LaTeX\n\\documentclass[]{}\n\\usepackage[]{}\n\\begin{document}\n\n..........\n..........\n\n\\end{document}\n\nEl área o espacio entre \\documentclass[]{} y \\begin{document} es llamada preámbulo. Incluye los paquetes que serán usados y los comandos que afectan todo el documento.\nEl contenido del documento se localiza entre \\begin{document}…\\end{document}.\n\n\nLos paquetes (packages) son complementos del lenguaje LaTeX que contienen funciones específicas, por ejemplo, existen paquetes para hacer referencias bibliográficas, para dar color a las tablas, para insertar vínculos en el texto, etc; según la distribución de LaTeX instalada, cuenta o no, con algunos de ellos. Por lo tanto es necesario instalar previamente el paquete que se desee usar. The Comprehensive TEX Archive Network es el sitio donde se encuentra material de TeX , entre los que se encuentran 5813 complementos."
+  },
+  {
+    "objectID": "desc_LaTeX.html#clases-de-documentos-y-seccionado",
+    "href": "desc_LaTeX.html#clases-de-documentos-y-seccionado",
+    "title": "Descifrando LaTeX",
+    "section": "Clases de documentos y seccionado",
+    "text": "Clases de documentos y seccionado\nHay muchas clases de documentos disponibles en LaTeX. Algunas de ellas son las siguientes:\n\narticle: informes cortos, artículos, y documentos de investigación (research papers).\nreport: informes extensos, tesis, libros pequeños.\nbook: libros.\nletter: para escribir cartas.\nbeamer: para presentaciones.\n\nEl seccionamiento del documento puede hacerse hasta en siete niveles:\n\n\n\nParte del contenido\nNivel\n\n\n\n\nParte\n-1\n\n\nCapítulo\n0\n\n\nSección\n1\n\n\nSubsección\n2\n\n\nSubsección\n3\n\n\nPárrafo\n4\n\n\nSubpárrafo\n5\n\n\n\n\\part y \\chapter sólo están disponibles para las clases report y book.\nUn documento típico, tipo artículo se vería así:\n\\documentclass{article}\n\\begin{document}\n\\tableofcontents\n\\section{Primera sección}\n\\section{Segunda sección}\n\\subsection{Subsección de la segunda sección}\n\\subsubsection[Nivel inferior]{Subsección en un nivel inferior}\n\\section{Tercera sección}\n\\subsection{Subsección de la tercera sección}\n\\subsection{Otra subsección de la tercera sección}\n\\end{document}\nEjecutando el anterior consecutivo de comandos, se obtiene:\n\n Por defecto el título de la tabla de contenido se presenta en inglés (Contents), para editar el nombre se hace necesario agregar la línea de comando: \\renewcommand{\\contentsname}{Contenido}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#aclaraciones-importantes",
+    "href": "desc_LaTeX.html#aclaraciones-importantes",
+    "title": "Descifrando LaTeX",
+    "section": "Aclaraciones importantes",
+    "text": "Aclaraciones importantes\nEn LaTeX, múltiples espacios equivalen a un espacio sencillo, por ejemplo escribir:\nUn punto azul pálido\ny\nUn       punto            azul           pálido\ngeneran el mismo resultado,\nUn punto azul pálido\nDe la misma manera, múltiples lineas en blanco, equivalen a dejar una sola línea en blanco.\nPrimer párrafo.\n\nSegundo párrafo.\ny\nPrimer párrafo.\n\n\n\n\n\nSegundo párrafo.\nProducirań el mismo resultado, el cual será generar un espacio nuevo para un nuevo párrafo.\nPrimer párrafo.\n\nSegundo párrafo.\nPara agregar espacios adicionales, se debe digitar \"\\ \", backslah y un espacio; esto actúa como la barra espaciadora en LaTeX.\nPara adicionar de manera manual líneas o renglones en blanco, basta con digitar dos backslash seguidos \\\\.\n\\documentclass{article}\n\\begin{document}\nUn  \\ \\ punto \\ \\ \\ \\ \\ \\ \\ azul \\ \\ pálido.\\\\\n\\\\\n\\\\\n\\\\\n\\\\\n\"Consideremos nuevamente este punto...\"\n\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#url",
+    "href": "desc_LaTeX.html#url",
+    "title": "Descifrando LaTeX",
+    "section": "url",
+    "text": "url\nEl formato del comando es: \\url{link-address}; lo que genera un vínculo que lleva a la web descrita."
+  },
+  {
+    "objectID": "desc_LaTeX.html#hyperref",
+    "href": "desc_LaTeX.html#hyperref",
+    "title": "Descifrando LaTeX",
+    "section": "hyperref",
+    "text": "hyperref\nEl paquete hyperref crea marcadores automáticos e hipervínculos. Además cuenta con argumentos adicionales para modificar la apariencia de los mismos.\n\\documentclass[a4paper, 12pt]{article}\n\\usepackage{url, hyperref}\n\\begin{document}\n\\section{First Section}\n\\href{https://www.ctan.org/pkg/url}{}texto del vínculo (link)\\\\\n\\section{Second Section}\n\\url{https://www.ctan.org/pkg/url}\\\\\n\\subsection{A subsection}\n\\nolinkurl{https://www.ctan.org/pkg/url}\n\\end{document}\n   \n  \n\\documentclass[a4paper, 12pt]{article}\n\\usepackage{url}\n\\usepackage[colorlinks=true]{hyperref} %agrega un color al vínculo\n\\begin{document}\n\\section{First Section}\n\\href{www.paginaweb.com}{texto del vínculo (link)}\\\\\n\\section{Second Section}\n\\url{www.paginaweb.com}\\\\\n\\subsection{A subsection}\n\\nolinkurl{www.paginaweb.com}\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#editando-encabezados-y-piés-de-página-para-diferentes-páginas.",
+    "href": "desc_LaTeX.html#editando-encabezados-y-piés-de-página-para-diferentes-páginas.",
+    "title": "Descifrando LaTeX",
+    "section": "Editando encabezados y piés de página para diferentes páginas.",
+    "text": "Editando encabezados y piés de página para diferentes páginas.\nEl resultado que se obtiene con los siguientes comandos es el siguiente, una página que contiene encabezados y pié de página, y una segunda página que no contiene ninguno de las dos características.\nEl comando \\thispagestyle{empty} remueve encabezado y pié de página en la segunda hoja.\n\\documentclass{article}\n\\usepackage{fancyhdr}\n\\pagestyle{fancy}\n\\renewcommand{\\headrulewidth}{1pt}\n\\lhead{C.Izquierdo}\n\\chead{C.Central}\n\\rhead{C.Derecho}\n\\lfoot{P.Izquierdo}\n\\cfoot{Página \\thepage}\n\\rfoot{P.Derecho}\n\\begin{document}\n\nEsta página contiene encabezado y pié de página.\n\n\\newpage\n\\thispagestyle{empty}\n\nEsta página no contiene encabezado ni píe de página\n\\end{document}\n  \nPara definir un nuevo estilo de encabezado y pié de página se usa el comando, \\fancypagestyle{mystyle}.\nPara reinicar los encabezados y los pié de página se usa, \\fancyhf{}.\nEl nuevo estilo de encabezado y pié de página es aplicado con el comando, \\thispagestyle{mystyle}.\n\\documentclass{article}\n\\usepackage{fancyhdr}\n\\pagestyle{fancy}\n\\renewcommand{\\headrulewidth}{0.4pt}\n\\lhead{lh}\n\\chead{ch}\n\\rhead{rh}\n\\lfoot{lf}\n\\cfoot{Página \\thepage}\n\\rfoot{rf}\n\\fancypagestyle{mystyle}\n{\\fancyhf{}\n\\fancyhead[L]{Lh}\n\\fancyhead[C]{Ch}\n\\fancyhead[R]{Rh}\n\\fancyfoot[L]{Lf}\n\\fancyfoot[C]{Cf}\n\\fancyfoot[R]{Rf}}\n\n\\begin{document}\n\nPrimera página con encabezado y pié de página.\n\n\\newpage\n\\thispagestyle{mystyle}\n\nSegunda página con nuevo encabezado y pié de página.\n\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#alinear-texto-entre-las-celdas",
+    "href": "desc_LaTeX.html#alinear-texto-entre-las-celdas",
+    "title": "Descifrando LaTeX",
+    "section": "Alinear texto entre las celdas",
+    "text": "Alinear texto entre las celdas\nEl paquete array permite ubicar el texto dentro de la celda.\n\\documentclass{article}\n\\usepackage{array}\n\\begin{document}\n\n\\textbf{Alinear celdas}\\\\\n\n\\begin{tabular}{|b{1.6cm}|m{1.6cm}|p{1.6cm}|}\n\\hline\nAlineado arriba & alineado medio & alineado abajo\\\\\n\\hline\n\\end{tabular}\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#altura-de-la-fila",
+    "href": "desc_LaTeX.html#altura-de-la-fila",
+    "title": "Descifrando LaTeX",
+    "section": "Altura de la fila",
+    "text": "Altura de la fila\nPara modificar la altura de la fila se usa \\setlength del paquete array.\n\\documentclass{article}\n\\usepackage{array}\n\\begin{document}\n\n\\setlength{\\extrarowheight}{4pt}\n\\begin{tabular}{|c|c|c|}\n\\hline\n11 & 12 & 13\\\\\n\\hline\n21 & 22 & 23\\\\\n\\hline\n\\end{tabular}\\\\\n\n\\setlength{\\extrarowheight}{8pt}\n\\begin{tabular}{|c|c|c|}\n\\hline\n11 & 12 & 13\\\\\n\\hline\n21 & 22 & 23\\\\\n\\hline\n\\end{tabular}\\\\\n\n\\setlength{\\extrarowheight}{16pt}\n\\begin{tabular}{|c|c|c|}\n\\hline\n11 & 12 & 13\\\\\n\\hline\n21 & 22 & 23\\\\\n\\hline\n\\end{tabular}\n\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#edición-de-tablas-con-booktabs",
+    "href": "desc_LaTeX.html#edición-de-tablas-con-booktabs",
+    "title": "Descifrando LaTeX",
+    "section": "Edición de tablas con booktabs",
+    "text": "Edición de tablas con booktabs\n\\documentclass{article}\n\\usepackage{booktabs}\n\\begin{document}\n\n\\begin{tabular}{ccc}\n\\toprule[1.5pt]\nA & B & C \\\\\n\\midrule\n11 & 12 & 13 \\\\\n21 & 22 & 23 \\\\\n31 & 32 & 33 \\\\\n\n\\bottomrule[1.5pt]\n\\end{tabular}\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#fusionando-celdas-por-fila",
+    "href": "desc_LaTeX.html#fusionando-celdas-por-fila",
+    "title": "Descifrando LaTeX",
+    "section": "Fusionando celdas por fila",
+    "text": "Fusionando celdas por fila\nEl formato del comando \\multicolumn{cols}{pos}{text}, para unir filas es el siguiente:\nmulticolumn{cols}{pos}{texto}\n\ncols, número de columnas que se unirán.\npos, especifica alineación, c para centro, l, para izquierda, r para derecha.\ntext, el texto que contiene la celda.\n\n\nNota: de manera similar, existe un paquete llamado multirow para unir celdas por columna.\n\n\\documentclass{article}\n\\begin{document}\n\n\\begin{tabular}{ccc}\n\\hline\n\\multicolumn{2}{c}{Columna combinada}&\n\\multicolumn{1}{c}{Última columna}\\\\\n\\cline{1-2}\n11 & 12 & 13\\\\\n21 & 22 & 23\\\\\n31 & 32 & 33\\\\\n\\hline\n\\end{tabular}\n\\end{document}\n\n\\cline es usado para dibujar una línea horizontal desde la primera columna hasta la segunda columna, justo debajo de la primera fila.\n\n\n \nOtro ejemplo de tabla\n\\documentclass{article}\n\\usepackage{booktabs}\n\\begin{document}\n\n\\begin{tabular}{ccc}\n\\toprule[1.5pt]\n\\multicolumn{2}{l}{Columna combinada}&\n\\multicolumn{1}{l}{Última columna}\\\\\nA & B & C\\\\\n\\cmidrule(r){1-2}\\cmidrule(l){3-3}\n11 & 12 & 13\\\\\n21 & 22 & 23\\\\\n31 & 32 & 33\\\\\n\\bottomrule[1.5pt]\n\\end{tabular}\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#nombrando-las-tablas",
+    "href": "desc_LaTeX.html#nombrando-las-tablas",
+    "title": "Descifrando LaTeX",
+    "section": "Nombrando las tablas",
+    "text": "Nombrando las tablas\nTítulo debajo de la tabla\n\\documentclass{article}\n\\begin{document}\n\\begin{table}[htpb]\n\\begin{tabular}{ccc}\n\\hline\nCol. 1 & Col. 2 & Col. 3 \\\\\n\\hline\n11 & 12 & 13\\\\\n\\hline\n21 & 22 & 23\\\\\n\\hline\n31 & 32 & 33\\\\\n\\hline\n\\end{tabular}\n\\centering\n\\caption{Título abajo}\n\\end{table}\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#título-sobre-la-tabla.",
+    "href": "desc_LaTeX.html#título-sobre-la-tabla.",
+    "title": "Descifrando LaTeX",
+    "section": "Título sobre la tabla.",
+    "text": "Título sobre la tabla.\n\\documentclass{article}\n\\begin{document}\n\\begin{table}[htpb]\n\\centering\n\\caption{Título arriba}\n\\vspace{10pt}\n\\begin{tabular}{ccc}\n\\hline\nCol. 1 & Col. 2 & Col. 3 \\\\\n\\hline\n11 & 12 & 13\\\\\n\\hline\n21 & 22 & 23\\\\\n\\hline\n31 & 32 & 33\\\\\n\\hline\n\\end{tabular}\n\\end{table}\n\\end{document}\n   \n\nUsar el entorno tabular en el ambiente table. Para dar nombre a la tabla usar \\caption antes o después del entorno tabular."
+  },
+  {
+    "objectID": "desc_LaTeX.html#dando-color-a-las-tablas",
+    "href": "desc_LaTeX.html#dando-color-a-las-tablas",
+    "title": "Descifrando LaTeX",
+    "section": "Dando color a las tablas",
+    "text": "Dando color a las tablas\nDar color por filas.\n\\documentclass{article}\n\\usepackage{colortbl}\n\\begin{document}\n\\begin{tabular}{ccc}\n\\hline\n\\rowcolor{red}\n11 & 12 & 13 \\\\\n\\hline\n\\rowcolor{green}\n21 & 22 & 23 \\\\\n\\hline\n\\rowcolor{blue}\n31 & 32 & 33 \\\\\n\\hline\n\\end{tabular}\n\\end{document}\n\n \nDar color por columnas.\n\\documentclass{article}\n\\usepackage{colortbl}\n\\begin{document}\n\\begin{tabular}\n{>{\\columncolor{red}}c>{\\columncolor{blue}}c>{\\color{yellow}\\columncolor{green}}c}\n\\hline\n11 & 12 & 13 \\\\\n\\hline\n21 & 22 & 23 \\\\\n\\hline\n31 & 32 & 33 \\\\\n\\hline\n\\end{tabular}\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#entornos",
+    "href": "desc_LaTeX.html#entornos",
+    "title": "Descifrando LaTeX",
+    "section": "Entornos",
+    "text": "Entornos\nIntroducir ecuaciones en una línea de texto:\n\n\\(...\\)\n$...$\n\nCrear entorno matemático en una nueva línea:\n\n\\[... \\]\n$... $\n\nCrear un entorno matemático en una nueva línea, enumerando las ecuaciones:\n\n\\begin{equation}...\\end{equation}\n\n\\documentclass{article}\n\\begin{document}\n\\(a + b = c\\)\nand \\(x + y = z\\)\n\n\\end{document}\n    \n\\documentclass{article}\n\\begin{document}\n\\[a + b = c\\]\nand \\[x + y = z\\]\n\n\\end{document}\n\n \n\\documentclass{article}\n\\begin{document}\n\n\\begin{equation}\na + b = c\n\\end{equation}\n\n\\begin{equation}\nd + e = f\n\\end{equation}\n\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#alineación-de-ecuaciones",
+    "href": "desc_LaTeX.html#alineación-de-ecuaciones",
+    "title": "Descifrando LaTeX",
+    "section": "Alineación de ecuaciones",
+    "text": "Alineación de ecuaciones\nPaquete amsmath.\nLa alineación de ecuaciones se consigue con este paquete.\nPara digitar ecuaciones que son tan largas como un renglón completo, es necesario hacer uso del comando multiline.\nalign es usado para alinear verticalmente las ecuaciones.\nHaga uso del caracter * para obtener ecuaciones sin numeración.\n\\begin{equation*} \\begin{multiline*} \\begin{gather*} \\begin{align*} \\nonumber\n\\documentclass{article}\n\\usepackage{amsmath}\n\\begin{document}\n\\begin{multline}\nx = a + b + c + d + e+ \\\\\nf + g + h + i + j+ \\\\\nk + l + m + n\n\\end{multline}\n\\end{document}\n\n\\documentclass{article}\n\\usepackage{amsmath}\n\\begin{document}\n\\begin{align}\nx + y + z = 1\\\\\ny + z = 0\\\\\nu + v + w + z = 2\n\\end{align}\n\\end{document}\n\n \n\\documentclass{article}\n\\usepackage{amsmath}\n\\begin{document}\n\\begin{equation}\n\\begin{split}\na = b\\\\\n=c\\\\\n\\end{split}\n\\end{equation}\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#potencias-raíces-y-freacciones.",
+    "href": "desc_LaTeX.html#potencias-raíces-y-freacciones.",
+    "title": "Descifrando LaTeX",
+    "section": "Potencias, raíces y freacciones.",
+    "text": "Potencias, raíces y freacciones.\n\\documentclass{article}\n\\begin{document}\n\\[x, y , z\\]\n\\[u_1 , d_2\\]\n\\[j^3 , l^4\\]\n\\[w_4^6 , q_3^1\\]\n\\[\\sqrt{x}\\]\n\\[\\sqrt[3]{x}\\]\n\\[\\sqrt{\\sqrt{x}}\\]\n\\[\\sqrt[n]{y_2^3}\\]\n\\[\\frac{n}{p}\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#letras-griegas",
+    "href": "desc_LaTeX.html#letras-griegas",
+    "title": "Descifrando LaTeX",
+    "section": "Letras griegas",
+    "text": "Letras griegas\n\\documentclass{article}\n\\begin{document}\n\\[\\alpha, \\beta\\]\n\\[\\gamma, \\delta\\]\n\\[\\rho, \\lambda\\]\n\\[\\Delta , \\nabla\\]\n\\[\\epsilon, \\theta\\]\n\\[\\eta, \\tau\\]\n\\[\\pi, \\sigma\\]\n\\[\\phi, \\xi\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#conjuntos-comunes",
+    "href": "desc_LaTeX.html#conjuntos-comunes",
+    "title": "Descifrando LaTeX",
+    "section": "Conjuntos comunes",
+    "text": "Conjuntos comunes\n\n\\documentclass{article}\n\\usepackage{bbm} %problemas con el paquete bbm\n\\begin{document}\n\\[\\mathbbm{C,Z}\\]\n\\[\\mathbbm{Q,R}\\]\n\\[\\mathbbm{N,Z_+}\\]\n\\[\\mathbbm{R^+,R^-}\\]\n\\[\\mathcal{P,T}\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#símbolos-y-operadores",
+    "href": "desc_LaTeX.html#símbolos-y-operadores",
+    "title": "Descifrando LaTeX",
+    "section": "Símbolos y operadores",
+    "text": "Símbolos y operadores\n\\documentclass{article}\n\\begin{document}\n\\[\\infty\\]\n\\[\\leq, \\geq\\]\n\\[\\neq, \\ll\\]\n\\[\\gg \\]\n\\[ \\prec, \\preceq\\]\n\\[ \\succ, \\succeq\\]\n\\[\\forall, \\exists\\]\n\\[\\not\\exists, \\iff\\]\n\\[\\sim, \\cong\\]\n\\[\\simeq, \\approx\\]\n\\[\\equiv\\]\n\\[\\perp, \\parallel\\]\n\\[\\propto, \\not\\perp\\]\n\\[\\wedge, \\vee\\]\n\\[\\angle, \\mid\\]\n\\[\\bigwedge, \\bigvee\\]\n\\[\\pm, \\times, \\ast\\]\n\\[\\oplus, \\ominus\\]\n\\[\\oslash, \\odot\\]\n\\[\\otimes\\]\n\\[\\bigoplus, \\bigotimes\\]\n\\[\\bigodot\\]\n\\[\\triangle, \\triangleleft\\]\n\\[\\triangleright\\] \n\\[\\bigtriangleup\\]\n\\[\\bigtriangledown\\]\n\\[\\circ, \\bigcirc\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#conjuntos-y-sus-operadores",
+    "href": "desc_LaTeX.html#conjuntos-y-sus-operadores",
+    "title": "Descifrando LaTeX",
+    "section": "Conjuntos y sus operadores",
+    "text": "Conjuntos y sus operadores\n\\documentclass{article}\n\\begin{document}\n\\[\\in, \\ni\\]\n\\[\\setminus\\]\n\\[\\subset, \\supset\\]\n\\[\\subseteq\\]\n\\[\\supseteq\\]\n\\[\\cup, \\cap\\]\n\\[\\bigcup, \\bigcap\\]\n\\[\\sqcup, \\sqcap\\]\n\\[\\bigsqcup\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#algunos-operadores-con-el-paquete-ams",
+    "href": "desc_LaTeX.html#algunos-operadores-con-el-paquete-ams",
+    "title": "Descifrando LaTeX",
+    "section": "Algunos operadores con el paquete AMS",
+    "text": "Algunos operadores con el paquete AMS\n\\documentclass{article}\n\\usepackage{amsmath}\n\\usepackage{amssymb}\n\\begin{document}\n\\[\\tehrefore\\]\n\\[\\because\\]\n\\[\\implies\\]\n\\[\\nless, \\ngtr\\]\n\\[\\nleq, \\ngeq\\]\n\\[\\nsubseteq\\]\n\\[\\nsupseteq\\]\n\\[\\subsetneq\\]\n\\[\\supsetneq\\]\n\\[\\nsubseteq\\]\n\\[\\nsupseteq\\]\n\\[\\subsetneq\\]\n\\[\\supsetneq\\]\n\\[\\nmid\\]\n\\[\\nparallel\\]\n\\[\\nsim\\]\n\\[\\ncong\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#símbolos-de-negación-amsmath---centernot",
+    "href": "desc_LaTeX.html#símbolos-de-negación-amsmath---centernot",
+    "title": "Descifrando LaTeX",
+    "section": "Símbolos de negación (amsmath - centernot)",
+    "text": "Símbolos de negación (amsmath - centernot)\n\\documentclass{article}\n\\usepackage{amsmath}\n\\usepackage{amssymb}\n\\usepackage{centernot}\n\\begin{document}\n\\[\\centernot\\implies\\]\n\\[\\centernot\\iff\\]\n\\[\\centernot\\mid\\]\n\\[\\centernot\\perp\\]\n\\[\\centernot\\equiv\\]\n\\[\\centernot\\parallel\\]\n\\[\\centernot\\sim\\]\n\\[\\centernot\\cong\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#signos-de-puntuación-doble",
+    "href": "desc_LaTeX.html#signos-de-puntuación-doble",
+    "title": "Descifrando LaTeX",
+    "section": "Signos de puntuación doble",
+    "text": "Signos de puntuación doble\n\\documentclass{article}\n\\begin{document}\n% paréntesis\n\\[ \\Biggl( \\biggl( \\Bigl( \\bigl( (\\]\n\\[) \\bigr) \\Bigr) \\biggr) \\Biggr) \\]\n% corchetes\n\\[ \\Biggl[ \\biggl[ \\Bigl[ \\bigl[ [\\]\n\\[] \\bigr] \\Bigr] \\biggr] \\Biggr] \\]\n% barras\n\\[ \\Biggl| \\biggl| \\Bigl| \\bigl| |\\]\n\\[| \\bigr| \\Bigr| \\biggr| \\Biggr| \\]\n\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#funciones-comunes",
+    "href": "desc_LaTeX.html#funciones-comunes",
+    "title": "Descifrando LaTeX",
+    "section": "Funciones comunes",
+    "text": "Funciones comunes\n\\documentclass{article}\n\\begin{document}\n\\[\\sin, \\cos\\]\n\\[\\tan, \\cot\\]\n\\[\\sec, \\csc\\]\n\\[\\arcsin\\]\n\\[\\arccos\\]\n\\[\\arctan\\]\n\\[\\sinh\\]\n\\[\\cosh\\]\n\\[\\tanh\\]\n\\[\\log, \\ln\\]\n\\[\\exp\\]\n\\[\\max, \\min\\]\n\\[\\inf, \\sup\\]\n\\[a \\equiv r(\\bmod\\; n)\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#ejemplos-de-funciones",
+    "href": "desc_LaTeX.html#ejemplos-de-funciones",
+    "title": "Descifrando LaTeX",
+    "section": "Ejemplos de funciones",
+    "text": "Ejemplos de funciones\n\\documentclass{article}\n\\usepackage{bbm} %problema con el paquete bbm\n\\begin{document}\n\\( f: \\mathbbm{R} \\setminus \\{0\\} \\to \\mathbbm{R}\\)defined as \\\\\n\\(f(x) = \\frac{sin{x}}{x} \\)\\\\\n\n\\( f: \\mathbbm{R} \\to \\mathbbm{R}\\)defined as \\\\\n\\(f(x)) =\n\\left\\{\n\\begin{array}{11}\nx & \\mbox{if } x \\geq 0 \\\\\n-x & \\mbox{if } x < 0\n\\end{array}\n\\right. \\)\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#ángulos-y-grados",
+    "href": "desc_LaTeX.html#ángulos-y-grados",
+    "title": "Descifrando LaTeX",
+    "section": "Ángulos y grados",
+    "text": "Ángulos y grados\n\\documentclass{article}\n\\usepackage{gensymb}\n\\begin{document}\n\\[90\\degree\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#valor-absoluto-y-norma-paquete-commath",
+    "href": "desc_LaTeX.html#valor-absoluto-y-norma-paquete-commath",
+    "title": "Descifrando LaTeX",
+    "section": "Valor absoluto y norma, paquete commath",
+    "text": "Valor absoluto y norma, paquete commath\n\\documentclass{article}\n\\usepackage{commath}\n\\begin{document}\n\\[\\abs{x}\\]\n\\[\\norm{x}\\]\n\\[\\abs{\\frac{x}{\\abs{y}}}\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#acentos-gráficos",
+    "href": "desc_LaTeX.html#acentos-gráficos",
+    "title": "Descifrando LaTeX",
+    "section": "Acentos gráficos",
+    "text": "Acentos gráficos\n\\documentclass{article}\n\\begin{document}\n\\[\\bar{a}\\]\n\\[\\vec{a}\\]\n\\[\\hat{a}\\]\n\\[\\tilde{a}\\]\n\\[\\dot{a}\\]\n\\[\\ddot{a}\\]\n\\[\\check{a}\\]\n\\[\\acute{a}\\]\n\\[\\breve{a}\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#puntos-líneas",
+    "href": "desc_LaTeX.html#puntos-líneas",
+    "title": "Descifrando LaTeX",
+    "section": "Puntos, líneas …",
+    "text": "Puntos, líneas …\n\\documentclass{article}\n\\begin{document}\n\\[a + b + c + \\cdots \\]\n\\[a_0, a_1, a_2 \\ldots \\]\n\\[\\overline{abc}\\]\n\\[\\underline{abc}\\]\n\\[\\overrightarrow{abc}\\]\n\\[\\overleftarrow{abc}\\]\n\\[\\widetilde{abc}\\]\n\\[\\widehat{abc}\\]\n\\[\\overbrace{abc}\\]\n\\[\\underbrace{abc}\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#sumatorias",
+    "href": "desc_LaTeX.html#sumatorias",
+    "title": "Descifrando LaTeX",
+    "section": "Sumatorias",
+    "text": "Sumatorias\n\\documentclass{article}\n\\begin{document}\n\\[\\sum\\]\n\\[\\sum a + b + \\cdots\\]\n\\[\\sum_{n=1}^{n=3}n\\]\n\\[\\sum\\limits_{n=1}^{n=3}n\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#coeficientes-binomiales",
+    "href": "desc_LaTeX.html#coeficientes-binomiales",
+    "title": "Descifrando LaTeX",
+    "section": "Coeficientes binomiales",
+    "text": "Coeficientes binomiales\n\\documentclass{article}\n\\usepackage{amsmath}\n\\begin{document}\n\\[\\binom{n}{r}\\]\n\\[^nC_r\\]\n\\[^nP_r\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#límites-y-derivadas",
+    "href": "desc_LaTeX.html#límites-y-derivadas",
+    "title": "Descifrando LaTeX",
+    "section": "Límites y derivadas",
+    "text": "Límites y derivadas\n\\documentclass{article}\n\\begin{document}\n\n%limites\n\\(lim_{n \\to \\infty}n\\) \\\\\n\n\n\\(\\lim\\llimits_{n \\to \\infty}n\\)\n\n%derivadas\n\\[\\frac{dy}{dx}\\]\n\\[\\frac{d^2}{dx^2}\\]\n\\[{\\partial z}{\\partial x}\\]\n\\[\\frac{\\partial^2 z}{\\partial x^2}\\]\n\\[\\frac{\\partial^2 z}{\\partial x \\partial y}\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#integración",
+    "href": "desc_LaTeX.html#integración",
+    "title": "Descifrando LaTeX",
+    "section": "Integración",
+    "text": "Integración\nmathrm para dar el formato apropiado al diferencial \\(d\\).\n\\! es usado para reducir el espacio entre el símbolo de integración y el integrando.\n\\limits se utiliza para la colocación adecuada de límites en ecuaciones que van en una línea de texto.\n\\documentclass{article}\n\\begin{document}\n\\[\\int, \\oint\\]\n\\[\\int f(x)\\ ,dx\\]\n\\[\\int \\!f(x)\\, dx\\)\\]\n\\[\\int_{0}^{2}x\\ ,dx\\]\n\\[\\int_{0}^{2}\\!x\\ ,dx\\]\n\\[\\int\\limits_{0}^{2}x\\, dx\\]\n\\[\\int_{0}^{2}\\!x\\, \\mathrm{d}x\\]\n\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#integración-doble",
+    "href": "desc_LaTeX.html#integración-doble",
+    "title": "Descifrando LaTeX",
+    "section": "Integración doble",
+    "text": "Integración doble\n\\documentclass{article}\n\\usepackage{amsmath}\n\\begin{document}\n\\[\\iint\\] %integración doble\n\\[\\iiint\\] %integración triple\n\\[\\iint xy\\]\n\\[\\iint xy\\, dx\\, dy\\]\n\\[\\iint_D f \\]\n\\[\\iint\\limits_D f\\]\n\\[\\int_{a}^{b}\\int_{c}^{d}\\]\n\\[\\int\\limits_{a}^{b}\\int\\limits_{c}^{d}\\]\n\\[\\iint \\!f(x\\, dx\\, dy\\)\\]\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#matrices-y-determinantes",
+    "href": "desc_LaTeX.html#matrices-y-determinantes",
+    "title": "Descifrando LaTeX",
+    "section": "Matrices y determinantes",
+    "text": "Matrices y determinantes\n\\documentclass{article}\n\\begin{document}\n\\( A = \\begin{array}{cc}\nx_{11} & x_{12}\\\\\ny_{21} & y_{22}\\\\\nz_{21} & z_{22}\n\\end{array}\\)\n\\end{document}\n  \n\\documentclass{article}\n\\begin{document}\n\\( A = \\left(\\begin{array}{cc}\nx_{11} & x_{12}\\\\\ny_{21} & y_{22}\\\\\nz_{21} & z_{22}\n\\end{array}\\right)\\)\n\\end{document}\n\n \n\\documentclass{article}\n\\begin{document}\n\\( A = \\left[\\begin{array}{cc}\nx_{11} & x_{12}\\\\\ny_{21} & y_{22}\\\\\nz_{21} & z_{22}\n\\end{array}\\right]\\)\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#matriz-con-el-paquete-amsmath",
+    "href": "desc_LaTeX.html#matriz-con-el-paquete-amsmath",
+    "title": "Descifrando LaTeX",
+    "section": "Matriz con el paquete amsmath",
+    "text": "Matriz con el paquete amsmath\n\\documentclass{article}\n\\usepackage{amsmath}\n\\begin{document}\n\\( A = \\begin{matrix}\nx_{11} & x_{12}\\\\\ny_{21} & y_{22}\\\\\nz_{21} & z_{22}\n\\end{matrix}\\)\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#matrices-amsmath",
+    "href": "desc_LaTeX.html#matrices-amsmath",
+    "title": "Descifrando LaTeX",
+    "section": "Matrices amsmath",
+    "text": "Matrices amsmath\n\\documentclass{article}\n\\usepackage{amsmath}\n\\begin{document}\n\\( A = \\begin{matrix}\nx_{11} & x_{12}\\\\\ny_{21} & y_{22}\\\\\nz_{21} & z_{22}\n\\end{matrix}\\)\\\\\n\n\\( A = \\begin{pmatrix}\nx_{11} & x_{12}\\\\\ny_{21} & y_{22}\\\\\nz_{21} & z_{22}\n\\end{pmatrix}\\)\\\\\n\n\\( A = \\begin{bmatrix}\nx_{11} & x_{12}\\\\\ny_{21} & y_{22}\\\\\nz_{21} & z_{22}\n\\end{bmatrix}\\)\\\\\n\n\\( A = \\begin{vmatrix}\nx_{11} & x_{12}\\\\\ny_{21} & y_{22}\\\\\nz_{21} & z_{22}\n\\end{vmatrix}\\)\\\\\n\n\\( A = \\begin{Vmatrix}\nx_{11} & x_{12}\\\\\ny_{21} & y_{22}\\\\\nz_{21} & z_{22}\n\\end{Vmatrix}\\)\\\\\n\n\\( A = \\begin{Bmatrix}\nx_{11} & x_{12}\\\\\ny_{21} & y_{22}\\\\\nz_{21} & z_{22}\n\\end{Bmatrix}\\)\\\\\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#redefiniendo-los-comandos",
+    "href": "desc_LaTeX.html#redefiniendo-los-comandos",
+    "title": "Descifrando LaTeX",
+    "section": "Redefiniendo los comandos",
+    "text": "Redefiniendo los comandos\n\\renewcommand{}[]{}\n\\documentclass{article}\n\\begin{document}\n\\newcommand{\\xyz}{Mi comando personal.}\n\\xyz\n\n\\renewcommand{\\xyz}{Redefiniendo el comando personal xyz. :)}\n\\xyz\n\n\\renewcommand{\\xyz}[2]{Redefiniendo comandos, agregando argumentos. #1 , #2}\n\\xyz{u}{w}\n\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#carta-sencilla",
+    "href": "desc_LaTeX.html#carta-sencilla",
+    "title": "Descifrando LaTeX",
+    "section": "Carta sencilla",
+    "text": "Carta sencilla\n\\documentclass{letter}\n\\signature{Tu nombre}\n\\address{Dirección \\\\Municipio - Departamento \\\\ País}\n\\begin{document}\n\\begin{letter}{Para: \\\\ Empresa \\\\ Dirección \\\\ Municipio - Departamento}\n\\date{Enero 21, 2014}\n\\opening{Estimado Señor\\textbackslash Señora,}\nEl contenido de la presente, se hace con el propósito de establecer...\\\\\n\n...No obstante este puede ser modificado con fines personales.\n\\closing{Atentamente,}\n\\ps{P.S espacio para posdata}\n\\encl{Documentos adjuntos}\n\\end{letter}\n\\end{document}\n\n\n\n  Se puede hacer uso del paquete fancyhdr para editar encabezados y pié de página. Se debe usar thispagestyle{fancy} para incluirlos en la página que se requiera."
+  },
+  {
+    "objectID": "desc_LaTeX.html#artículo-científico",
+    "href": "desc_LaTeX.html#artículo-científico",
+    "title": "Descifrando LaTeX",
+    "section": "Artículo científico",
+    "text": "Artículo científico\nEl siguiente código crea una plantilla para un artículo científico.\n\\documentclass[letterpaper]{article}\n\\usepackage{geometry, url, graphicx}\n\\title{Artículo científico}\n\\author{CRG}\n\\date{31-12-2000}\n\\begin{document}\n\\maketitle\n\\abstract{Resumen}\n\\newpage\n\\tableofcontents\n\\newpage\n\\listoffigures\n\\newpage\n\\section{Introducción}\nEste es el espacio para escribir la introducción.\n\\section{Antecedentes y preliminares}\n\\section{Primer tema}\nUna primera sección...\n\\subsection{Subsección de tema 1}\n\\subsection{Subsección de tema 1}\n\\section{Segundo tema}\n\\subsection{Subsección tema 2}\n\\subsection{Subsección tema 2}\n\\subsubsection{Una sección de la sección aterior}\n\\section{Conclusiones}\n* Conclusión ...\n\n* Conclusión ...\n\\newpage\n\\begin{thebibliography}{99}\n\\bibitem{Ref1} Author1., \\textit{Book 1}, Publisher 1, Year 1.\n\\bibitem{Ref2} Author2., \\textit{Book 2}, Publisher 2, Year2.\n\\end{thebibliography}\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#libro",
+    "href": "desc_LaTeX.html#libro",
+    "title": "Descifrando LaTeX",
+    "section": "Libro",
+    "text": "Libro\nPlantilla para crear libro.\nJerarquía del contenido de un libro en LaTeX:\n\nPart\nChapter\nSection\nSubsection\nSubsubsection\n\n\\documentclass{book}\n\\begin{document}\n\\part{First Part}\n\\chapter*{Preface} % * salta el número del capítulo\n\\chapter{First main chapter}\n\\section{A section}\n\\section{Another section}\n\\subsection{A sub-section}\n\\subsubsection[Deeper level]{A sub-section at deeper level}\n\\chapter{Second main chapter}\n\\part{Second part}\n\\chapter{Third main chapter}\n\\chapter{Fourth main chapter}\n\\end{document}\n\n\\chapter{}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#crear-la-página-del-título.",
+    "href": "desc_LaTeX.html#crear-la-página-del-título.",
+    "title": "Descifrando LaTeX",
+    "section": "Crear la página del título.",
+    "text": "Crear la página del título.\n\\documentclass{book}\n\\begin{document}\n\\begin{titlepage}\n\\noindent{\\Huge Nombre del libro \\\\ \\\\ }\n{\\large edición \\\\ \\\\ \\\\}\n{\\Large Autor\\\\}\n\\vfill\n{\\itshape año, Editorial}\n\\end{titlepage}\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#tabla-de-contenido-toc",
+    "href": "desc_LaTeX.html#tabla-de-contenido-toc",
+    "title": "Descifrando LaTeX",
+    "section": "Tabla de contenido (toc)",
+    "text": "Tabla de contenido (toc)\n\\documentclass{book}\n%hyperref crea los marcadores y los vinculos de la toc\n\\usepackage[colorlinks=true, linkcolor=blue]{hyperref}\n\\setcounter{tocdepth}{3} % detecta niveles en la toc\n\\begin{document}\n\\tableofcontents\n\\part{First Part}\n\\chapter*{Preface}\n\\addcontentsline{toc}{chapter}{Preface} %agrega titulo a la toc sin enumerar\n\\chapter{First main chapter}\n\\section{A section}\n\\section{Another section}\n\\subsection{A sub section}\n\\subsubsection[Deeper level]{A subsection at deeper level}\n\\chapter{Second main chapter}\n\\part{Second part}\n\\chapter{Third main chapter}\n\\chapter{Fourth main chapter}\n\\addtocontents{toc}{Some Description} %agrega a la toc sin nro de página.\n\\section{A section in IV chapter}\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#lista-de-figuras-lof",
+    "href": "desc_LaTeX.html#lista-de-figuras-lof",
+    "title": "Descifrando LaTeX",
+    "section": "Lista de figuras (lof)",
+    "text": "Lista de figuras (lof)\nLa inclusión de una lista de figuras (lof) se hace de manera similar a la tabla de contenido (toc). Genera vínculos interacttivos para las imágenes.\n\\documentclass{book}\n\\usepackage{hyperref}\n\\usepackage{graphicx}\n\\begin{document}\n\\tableofcontents\n\\listoffigures % para incluir lista de figuras (lof)\n\\part{First Part}\n\\chapter*{Preface}\n\\chapter{First main chapter}\n\\section{A section}\n\\addtocontents{lof}{descripción antes de la figura}%agregar manualmente en (lof) sin número de página\n\\begin{figure}[htbp]\n\\begin{center}\n\\fbox{\\includegraphics[width=4cm, angle=0]{/home/crg/mi-carpeta/2020/Intereses/Descifrando_LaTeX/des_LaTeX/imagenes_latex/snowm.jpg}}\n\\caption{Blancos picos.}\n\\end{center}\n\\end{figure}\n\\addcontentsline{lof}{figure}{descripción después de la figura}%agregar entrada en lof\n\\section{Another section}\n\\addtocontents{lof}{descripción antes de la figura}\n\\begin{figure}[htbp]\n\\begin{center}\n\\fbox{\\includegraphics[width=4cm, angle=45]{/home/crg/mi-carpeta/2020/Intereses/Descifrando_LaTeX/des_LaTeX/imagenes_latex/snowm.jpg}}\n\\caption{Blancos picos inc.}\n\\end{center}\n\\end{figure}\n\\addcontentsline{lof}{figure}{descripción después de la figura}\n\\subsection{A sub section}\n\\subsubsection[Deeper level]{A subsection at deeper level}\n\\chapter{Second main chapter}\n\\part{Second part}\n\\chapter{Third main chapter}\n\\chapter{Fourth main chapter}\n\\section{A section in IV chapter}\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#incluir-lista-de-tablas-lot",
+    "href": "desc_LaTeX.html#incluir-lista-de-tablas-lot",
+    "title": "Descifrando LaTeX",
+    "section": "Incluir lista de tablas (lot)",
+    "text": "Incluir lista de tablas (lot)\n\\documentclass{book}\n\\begin{document}\n\\listoftables\n\\part{First Part}\n\\chapter*{Preface}\n\\chapter{First main chapter}\n\\section{A section}\n\\addtocontents{lot}{some description before table}\n\\begin{table}[htbp]\n\\begin{tabular}{ccc}\n\\hline\n\\textbf{Col. 1} & \\textbf{Col. 2} & \\textbf{Col. 3} \\\\\n\\hline\n11 & 12 & 13 \\\\\n\\hline\n21 & 22 & 23 \\\\\n\\hline\n31 & 32 & 33 \\\\\n\\hline\n\\end{tabular}\n\\centering\n\\caption{Nombre tabla}\n\\end{table}\n\\addcontentsline{lot}{table}{description after table}\n\\section{Another section}\n\\subsection{A smaller section}\n\\subsubsection[Deeper level]{This section has an even deeper level}\n\\chapter{Third main chapter}\n\\end{document}"
+  },
+  {
+    "objectID": "desc_LaTeX.html#índice",
+    "href": "desc_LaTeX.html#índice",
+    "title": "Descifrando LaTeX",
+    "section": "Índice",
+    "text": "Índice\nVerificar este script, no genera el resultado esperado.\n\\documentclass{book}\n\\usepackage{index}\n\\makeindex\n\\begin{document}\n\\part{First Part}\n\\chapter*{Preface}\n\\chapter{First main chapter}\n\\section{A section}\n\\index{index entry A}\n\\section{Another section}\n\\subsection{A smaller section}\n\\chapter{Second main chapter}\n\\part{Second part}\n\\index{index entry B}\n\\chapter{Third main chapter}\n\\index{index entry C}\n\\index{index entry A}\n\\index{index entry D |see{index entry C}}\n\\printindex\n\\end{document}\n\n\\documentclass{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage{imakeidx}\n\\makeindex\n\n\\begin{document}\n\n\\section{Introduction}\nIn this example several keywords\\index{keywords} will be used \nwhich are important and deserve to appear in the Index\\index{Index}.\n\n\\newpage\nTerms like generate\\index{generate} and some\\index{others} will \nalso show up. \n\n\\printindex\n\n\\end{document}\n ********\n\\documentclass{article}\n\\usepackage{imakeidx}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\makeindex\n\n\\begin{document}\n\n\\section{Introduction}\nIn this example several keywords\\index{keywords} will be used \nwhich are important and deserve to appear in the Index\\index{Index}.\n\nTerms like generate\\index{generate} and some\\index{others} will also \nshow up. Terms in the index can also be nested \\index{Index!nested}\n\n\\clearpage\n\n\\section{Second section}\nThis second section\\index{section} may include some special word, \nand expand the ones already used\\index{keywords!used}.\n\n\\printindex\n\\end{document}\n\n\n\\documentclass{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage{imakeidx}\n\\makeindex[columns=3, title=Alphabetical Index]\n\n\\begin{document}\n\n\\section{Introduction}\nIn this example several keywords\\index{keywords} will be used which \nare important and deserve to appear in the Index\\index{Index}.\n\nTerms like generate\\index{generate} and some\\index{others} will also \nshow up. Terms in the index can also be nested \\index{Index!nested}\n\n\\clearpage\n\n\\section{Second section}\nThis second section\\index{section} may include some special word, \nand expand the ones already used\\index{keywords!used}.\n\n\\printindex\n\\end{document}\n ********"
+  },
+  {
+    "objectID": "desc_LaTeX.html#introducir-el-índice-a-la-tabla-de-contenido",
+    "href": "desc_LaTeX.html#introducir-el-índice-a-la-tabla-de-contenido",
+    "title": "Descifrando LaTeX",
+    "section": "Introducir el índice a la tabla de contenido",
+    "text": "Introducir el índice a la tabla de contenido\n\\documentclass{article}\n\\usepackage[utf8]{inputenc}\n\\usepackage[T1]{fontenc}\n\\usepackage{imakeidx}\n\\makeindex[columns=3, title=Alphabetical Index, intoc]\n\n\\begin{document}\n\n\\tableofcontents\n\n\\section{Introduction}\nIn this example several keywords\\index{keywords} will be \nused which are important and deserve to appear in the \nIndex\\index{Index}.\n\nTerms like generate\\index{generate} and some\\index{others} \nwill also show up. Terms in the index can also be \nnested \\index{Index!nested}\n\n\\clearpage\n\n\\section{Second section}\nThis second section\\index{section} may include some special \nword, and expand the ones already used\\index{keywords!used}.\n\n\\printindex\n\\end{document}"
+  },
+  {
+    "objectID": "prueba.html",
+    "href": "prueba.html",
+    "title": "Rasgos Funcionales2",
+    "section": "",
+    "text": "Header\n\n\n<h4 class=\"card-title\">Primary card title</h4>\n<p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n\n\n\n\nHeader\n\n\n<h4 class=\"card-title\">Secondary card title</h4>\n<p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n\n\n\n\nHeader\n\n\n<h4 class=\"card-title\">Success card title</h4>\n<p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n\n\n\n\nHeader\n\n\n<h4 class=\"card-title\">Danger card title</h4>\n<p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n\n\n\n\nHeader\n\n\n<h4 class=\"card-title\">Warning card title</h4>\n<p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n\n\n\n\nHeader\n\n\n<h4 class=\"card-title\">Info card title</h4>\n<p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n\n\n\n\nHeader\n\n\n<h4 class=\"card-title\">Light card title</h4>\n<p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>\n\n\n\n\nHeader\n\n\n<h4 class=\"card-title\">Dark card title</h4>\n<p class=\"card-text\">Some quick example text to build on the card title and make up the bulk of the card's content.</p>"
+  }
+]
