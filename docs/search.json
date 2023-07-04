@@ -1,0 +1,121 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "—",
+    "section": "",
+    "text": "“Ahora es momento de entender más, para que podamos temer menos.” - Marie Curie."
+  },
+  {
+    "objectID": "tableros.html",
+    "href": "tableros.html",
+    "title": "TABLEROS",
+    "section": "",
+    "text": "En este espacio se desea mostrar algunos ejemplos de tableros de datos hechos con el paquete de R, llamado flexdashboard.\nUn tablero de datos (o dashboard en inglés) es una herramienta de visualización de datos que permite presentar información de manera clara y concisa en un solo lugar.\nLos tableros de datos suelen mostrar información en forma de gráficos, tablas, mapas y otros elementos visuales, y pueden incluir datos en tiempo real o datos históricos. También pueden ser interactivos, lo que permite a los usuarios explorar y analizar los datos en detalle.\nLos tableros de datos se utilizan en una amplia variedad de aplicaciones, desde el seguimiento del rendimiento de ventas y marketing hasta el monitoreo del tráfico de un sitio web o la supervisión del rendimiento de una red informática. Al presentar información de manera clara y accesible, los tableros de datos pueden ayudar a los usuarios a tomar decisiones informadas y a identificar áreas que requieren atención o mejora.\nLo siguientes ejemplos, son tableros de datos estáticos que presentan información derivada de la exploración hecha con algunas bases de datos, se presentan los resultados de estos cálculos en forma de imágen, tablas, etc.\nLo que se busca es dar “vida” a los datos mediante un modelo de tablero que sea amigable con el usuario; el dashboard de muestra como una herramienta o alternativa para presentar un reporte o informe.\n\nTablero de control sistema de riego\nEste es un ejemplo de tablero de datos de un sistema de riego para una planta, que captura información a través de sensores controlados con Arduino. Esta información capturada se muestra en el tablero, variables medidas como humedad del suelo, temperatura ambiente, nivel de agua, entre otras.\nSistema de riego\n\n\nTablero de ejemplo\nEste es un tablero con información generada de manera aleatoria, para ejemplificar un dashboard.\n\n\nTablero de datos call center\nEjemplo de dashboard para presentar una situación en particular dentro de un call center que atiende cierto número de llamadas.\n\n\nTablero ejemplo notas estudiantes\nEn este tablero se realiza un informe con las notas de algunos estudiantes. Los datos para este tablero de datos se generaron de manera aleatoria."
+  },
+  {
+    "objectID": "notas.html",
+    "href": "notas.html",
+    "title": "NOTAS",
+    "section": "",
+    "text": "El conocimiento adquiere verdadero valor cuando se comparte."
+  },
+  {
+    "objectID": "notas.html#modelo-relacional",
+    "href": "notas.html#modelo-relacional",
+    "title": "NOTAS",
+    "section": "Modelo Relacional",
+    "text": "Modelo Relacional\nEs el modelo más utilizado actualmente. Organiza los datos en tablas con filas y columnas, y establece relaciones entre las tablas mediante claves primarias y externas."
+  },
+  {
+    "objectID": "notas.html#modelo-jerárquico",
+    "href": "notas.html#modelo-jerárquico",
+    "title": "NOTAS",
+    "section": "Modelo Jerárquico",
+    "text": "Modelo Jerárquico\nOrganiza los datos en una estructura de árbol, donde cada registro tiene un único padre y múltiples hijos."
+  },
+  {
+    "objectID": "notas.html#modelo-de-red",
+    "href": "notas.html#modelo-de-red",
+    "title": "NOTAS",
+    "section": "Modelo de Red",
+    "text": "Modelo de Red\nSimilar al modelo jerárquico, pero permite que un registro tenga múltiples padres, lo que permite relaciones más complejas."
+  },
+  {
+    "objectID": "notas.html#modelo-orientado-a-objetos",
+    "href": "notas.html#modelo-orientado-a-objetos",
+    "title": "NOTAS",
+    "section": "Modelo Orientado a Objetos",
+    "text": "Modelo Orientado a Objetos\nAlmacena los datos en forma de objetos, que pueden contener atributos y métodos."
+  },
+  {
+    "objectID": "notas.html#modelo-nosql",
+    "href": "notas.html#modelo-nosql",
+    "title": "NOTAS",
+    "section": "Modelo NoSQL",
+    "text": "Modelo NoSQL\nDiseñado para gestionar grandes volúmenes de datos no estructurados o semi estructurados, como documentos, gráficos o datos en clave-valor."
+  },
+  {
+    "objectID": "notas.html#sql-structured-query-language",
+    "href": "notas.html#sql-structured-query-language",
+    "title": "NOTAS",
+    "section": "SQL (Structured Query Language)",
+    "text": "SQL (Structured Query Language)\nEs el lenguaje de consulta más utilizado en bases de datos relacionales. Permite realizar consultas complejas, manipulación de datos y definición de estructuras."
+  },
+  {
+    "objectID": "notas.html#nosql-query-languages",
+    "href": "notas.html#nosql-query-languages",
+    "title": "NOTAS",
+    "section": "NoSQL Query Languages",
+    "text": "NoSQL Query Languages\nCada sistema NoSQL tiene su propio lenguaje de consulta, como MongoDB Query Language (MQL) para MongoDB o Cypher para bases de datos de grafos.\nBeneficios de las bases de datos. El uso de bases de datos ofrece numerosos beneficios:\n\nOrganización y estructura: Permite organizar los datos de manera coherente y estructurada, facilitando la gestión y el acceso a la información.\nEficiencia en la recuperación de datos: Las bases de datos están optimizadas para recuperar datos de manera rápida y eficiente, lo que agiliza las operaciones y consultas.\nIntegridad de datos: Las bases de datos implementan mecanismos de control de integridad para garantizar que los datos sean precisos y consistentes.\nEscalabilidad: Las bases de datos pueden crecer y adaptarse a medida que los volúmenes de datos aumentan, lo que permite manejar grandes cantidades de información.\nSeguridad: Las bases de datos ofrecen mecanismos de seguridad para proteger los datos, como la autenticación, el cifrado y los controles de acceso."
+  },
+  {
+    "objectID": "intereses.html",
+    "href": "intereses.html",
+    "title": "Intereses",
+    "section": "",
+    "text": "Bases de datos Quarto Sistemas de información R SQL Arduino Markdown Python IoT Git Git Hub Raspberry Pi Ciencia de datos Automatización html IA Circuitos eléctricos Divulgación Dashboard"
+  },
+  {
+    "objectID": "intereses.html#markdown",
+    "href": "intereses.html#markdown",
+    "title": "Intereses",
+    "section": "Markdown",
+    "text": "Markdown"
+  },
+  {
+    "objectID": "intereses.html#quarto",
+    "href": "intereses.html#quarto",
+    "title": "Intereses",
+    "section": "Quarto",
+    "text": "Quarto"
+  },
+  {
+    "objectID": "intereses.html#latex",
+    "href": "intereses.html#latex",
+    "title": "Intereses",
+    "section": "LaTeX",
+    "text": "LaTeX"
+  },
+  {
+    "objectID": "intereses.html#arduino",
+    "href": "intereses.html#arduino",
+    "title": "Intereses",
+    "section": "Arduino",
+    "text": "Arduino"
+  },
+  {
+    "objectID": "intereses.html#raspberry-pi",
+    "href": "intereses.html#raspberry-pi",
+    "title": "Intereses",
+    "section": "Raspberry Pi",
+    "text": "Raspberry Pi"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Cristian Rivera G.",
+    "section": "",
+    "text": "Esta página web contruida con Quarto tiene como objetivo plasmar algunas notas, sobre temas y herramientas relacionadas con las tecnologías de la información y las comunicaciones (TIC), bases de datos, desarrollo web, lenguajes de programación (SQL, R, Python), entre otros temas, como el uso microcontroladores Arduino y Raspberry Pi.\nEn la mayoría de las actividades acá mostradas se intenta implementar software de código abierto, para que pueda ser fácil de compartir, reproducir y editar por otras personas.\nEste espacio, a su vez, es usado como laboratorio de aprendizaje y de consulta, por parte de quien escribe estas líneas; la precisión de los conceptos mencionados y desarrollados en este sitio web están abiertos al error, sólo es la opinión de quien redacta y crea este contenido."
+  }
+]
