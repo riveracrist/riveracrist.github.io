@@ -2,120 +2,267 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "—",
+    "title": "Análisis y Desarrollo de Software",
     "section": "",
-    "text": "“Ahora es momento de entender más, para que podamos temer menos.” - Marie Curie."
+    "text": "Back to top"
   },
   {
     "objectID": "tableros.html",
     "href": "tableros.html",
     "title": "TABLEROS",
     "section": "",
-    "text": "En este espacio se desea mostrar algunos ejemplos de tableros de datos hechos con el paquete de R, llamado flexdashboard.\nUn tablero de datos (o dashboard en inglés) es una herramienta de visualización de datos que permite presentar información de manera clara y concisa en un solo lugar.\nLos tableros de datos suelen mostrar información en forma de gráficos, tablas, mapas y otros elementos visuales, y pueden incluir datos en tiempo real o datos históricos. También pueden ser interactivos, lo que permite a los usuarios explorar y analizar los datos en detalle.\nLos tableros de datos se utilizan en una amplia variedad de aplicaciones, desde el seguimiento del rendimiento de ventas y marketing hasta el monitoreo del tráfico de un sitio web o la supervisión del rendimiento de una red informática. Al presentar información de manera clara y accesible, los tableros de datos pueden ayudar a los usuarios a tomar decisiones informadas y a identificar áreas que requieren atención o mejora.\nLo siguientes ejemplos, son tableros de datos estáticos que presentan información derivada de la exploración hecha con algunas bases de datos, se presentan los resultados de estos cálculos en forma de imágen, tablas, etc.\nLo que se busca es dar “vida” a los datos mediante un modelo de tablero que sea amigable con el usuario; el dashboard de muestra como una herramienta o alternativa para presentar un reporte o informe.\n\nTablero de control sistema de riego\nEste es un ejemplo de tablero de datos de un sistema de riego para una planta, que captura información a través de sensores controlados con Arduino. Esta información capturada se muestra en el tablero, variables medidas como humedad del suelo, temperatura ambiente, nivel de agua, entre otras.\nSistema de riego\n\n\nTablero de ejemplo\nEste es un tablero con información generada de manera aleatoria, para ejemplificar un dashboard.\nTablero ejemplo\n\n\nTablero de datos call center\nEjemplo de dashboard para presentar una situación en particular dentro de un call center que atiende cierto número de llamadas.\n\n\nTablero ejemplo notas estudiantes\nEn este tablero se realiza un informe con las notas de algunos estudiantes. Los datos para este tablero de datos se generaron de manera aleatoria."
+    "text": "En este espacio se desea mostrar algunos ejemplos de tableros de datos hechos con el paquete de R, llamado flexdashboard.\nUn tablero de datos (o dashboard en inglés) es una herramienta de visualización de datos que permite presentar información de manera clara y concisa en un solo lugar.\nLos tableros de datos suelen mostrar información en forma de gráficos, tablas, mapas y otros elementos visuales, y pueden incluir datos en tiempo real o datos históricos. También pueden ser interactivos, lo que permite a los usuarios explorar y analizar los datos en detalle.\nLos tableros de datos se utilizan en una amplia variedad de aplicaciones, desde el seguimiento del rendimiento de ventas y marketing hasta el monitoreo del tráfico de un sitio web o la supervisión del rendimiento de una red informática. Al presentar información de manera clara y accesible, los tableros de datos pueden ayudar a los usuarios a tomar decisiones informadas y a identificar áreas que requieren atención o mejora.\nLo siguientes ejemplos, son tableros de datos estáticos que presentan información derivada de la exploración hecha con algunas bases de datos, se presentan los resultados de estos cálculos en forma de imágen, tablas, etc.\nLo que se busca es dar “vida” a los datos mediante un modelo de tablero que sea amigable con el usuario; el dashboard de muestra como una herramienta o alternativa para presentar un reporte o informe.\n\nTablero de control sistema de riego\nEste es un ejemplo de tablero de datos de un sistema de riego para una planta, que captura información a través de sensores controlados con Arduino. Esta información capturada se muestra en el tablero, variables medidas como humedad del suelo, temperatura ambiente, nivel de agua, entre otras.\nSistema de riego\n\n\nTablero de ejemplo\nEste es un tablero con información generada de manera aleatoria, para ejemplificar un dashboard.\nTablero ejemplo\n\n\nTablero de datos call center\nEjemplo de dashboard para presentar una situación en particular dentro de un call center que atiende cierto número de llamadas.\n\n\nTablero ejemplo notas estudiantes\nEn este tablero se realiza un informe con las notas de algunos estudiantes. Los datos para este tablero de datos se generaron de manera aleatoria.\n\n\n\n\n Back to top"
   },
   {
     "objectID": "notas.html",
     "href": "notas.html",
-    "title": "NOTAS",
+    "title": "Análisis",
     "section": "",
     "text": "El conocimiento adquiere verdadero valor cuando se comparte."
   },
   {
     "objectID": "notas.html#modelo-relacional",
     "href": "notas.html#modelo-relacional",
-    "title": "NOTAS",
+    "title": "Análisis",
     "section": "Modelo Relacional",
     "text": "Modelo Relacional\nEs el modelo más utilizado actualmente. Organiza los datos en tablas con filas y columnas, y establece relaciones entre las tablas mediante claves primarias y externas."
   },
   {
     "objectID": "notas.html#modelo-jerárquico",
     "href": "notas.html#modelo-jerárquico",
-    "title": "NOTAS",
+    "title": "Análisis",
     "section": "Modelo Jerárquico",
     "text": "Modelo Jerárquico\nOrganiza los datos en una estructura de árbol, donde cada registro tiene un único padre y múltiples hijos."
   },
   {
     "objectID": "notas.html#modelo-de-red",
     "href": "notas.html#modelo-de-red",
-    "title": "NOTAS",
+    "title": "Análisis",
     "section": "Modelo de Red",
     "text": "Modelo de Red\nSimilar al modelo jerárquico, pero permite que un registro tenga múltiples padres, lo que permite relaciones más complejas."
   },
   {
     "objectID": "notas.html#modelo-orientado-a-objetos",
     "href": "notas.html#modelo-orientado-a-objetos",
-    "title": "NOTAS",
+    "title": "Análisis",
     "section": "Modelo Orientado a Objetos",
     "text": "Modelo Orientado a Objetos\nAlmacena los datos en forma de objetos, que pueden contener atributos y métodos."
   },
   {
     "objectID": "notas.html#modelo-nosql",
     "href": "notas.html#modelo-nosql",
-    "title": "NOTAS",
+    "title": "Análisis",
     "section": "Modelo NoSQL",
     "text": "Modelo NoSQL\nDiseñado para gestionar grandes volúmenes de datos no estructurados o semi estructurados, como documentos, gráficos o datos en clave-valor."
   },
   {
     "objectID": "notas.html#sql-structured-query-language",
     "href": "notas.html#sql-structured-query-language",
-    "title": "NOTAS",
+    "title": "Análisis",
     "section": "SQL (Structured Query Language)",
     "text": "SQL (Structured Query Language)\nEs el lenguaje de consulta más utilizado en bases de datos relacionales. Permite realizar consultas complejas, manipulación de datos y definición de estructuras."
   },
   {
     "objectID": "notas.html#nosql-query-languages",
     "href": "notas.html#nosql-query-languages",
-    "title": "NOTAS",
+    "title": "Análisis",
     "section": "NoSQL Query Languages",
     "text": "NoSQL Query Languages\nCada sistema NoSQL tiene su propio lenguaje de consulta, como MongoDB Query Language (MQL) para MongoDB o Cypher para bases de datos de grafos.\nBeneficios de las bases de datos. El uso de bases de datos ofrece numerosos beneficios:\n\nOrganización y estructura: Permite organizar los datos de manera coherente y estructurada, facilitando la gestión y el acceso a la información.\nEficiencia en la recuperación de datos: Las bases de datos están optimizadas para recuperar datos de manera rápida y eficiente, lo que agiliza las operaciones y consultas.\nIntegridad de datos: Las bases de datos implementan mecanismos de control de integridad para garantizar que los datos sean precisos y consistentes.\nEscalabilidad: Las bases de datos pueden crecer y adaptarse a medida que los volúmenes de datos aumentan, lo que permite manejar grandes cantidades de información.\nSeguridad: Las bases de datos ofrecen mecanismos de seguridad para proteger los datos, como la autenticación, el cifrado y los controles de acceso."
   },
   {
     "objectID": "intereses.html",
     "href": "intereses.html",
-    "title": "Intereses",
+    "title": "Herramientas TIC",
     "section": "",
-    "text": "Bases de datos Quarto Sistemas de información R SQL Arduino Markdown Python IoT Git Git Hub Raspberry Pi Ciencia de datos Automatización html IA Circuitos eléctricos Divulgación Dashboard"
+    "text": "Las Tecnologías de la Información y la Comunicación (TIC) son recursos, dispositivos, programas, aplicaciones o equipos tecnológicos utilizados para recopilar, almacenar, procesar, transmitir y compartir información de manera digital. Estas herramientas están diseñadas para facilitar la comunicación, el acceso a la información, la gestión de datos y la realización de tareas en entornos digitales.\nLas TIC abarcan una amplia gama de herramientas, que incluyen:\nHardware: Dispositivos físicos como computadoras, servidores, dispositivos móviles, routers, impresoras, entre otros, utilizados para procesar y almacenar datos.\nSoftware: Programas, aplicaciones o sistemas operativos que permiten realizar diversas tareas, desde el procesamiento de texto y la creación de hojas de cálculo hasta el diseño gráfico, la gestión de bases de datos, la seguridad informática y mucho más.\nRedes y Comunicaciones: Infraestructuras y tecnologías que facilitan la conectividad y la transmisión de datos, como Internet, redes locales (LAN), redes inalámbricas (Wi-Fi), protocolos de comunicación, entre otros.\nServicios en la Nube: Plataformas que permiten almacenar, gestionar y acceder a datos y aplicaciones a través de internet, como almacenamiento en la nube, servicios de correo electrónico, software como servicio (SaaS), entre otros.\nTecnologías Emergentes: Herramientas innovadoras como inteligencia artificial (IA), realidad aumentada (RA), Internet de las cosas (IoT), blockchain, que están transformando la forma en que interactuamos con la información y el entorno digital.\nRStudio Quarto Android R SQL Arduino Markdown Python IoT Git Git Hub Raspberry Pi SGBD Navegador Web html IA Trello Windows OS Dashboard Excel Gmail Photoshop Linux Redes Sociales Skype Antivirus Visual Studio Canvas Oracle Lucidchart Wi-Fi LibreOffice StarUML"
   },
   {
     "objectID": "intereses.html#markdown",
     "href": "intereses.html#markdown",
-    "title": "Intereses",
+    "title": "Herramientas TIC",
     "section": "Markdown",
     "text": "Markdown"
   },
   {
     "objectID": "intereses.html#quarto",
     "href": "intereses.html#quarto",
-    "title": "Intereses",
+    "title": "Herramientas TIC",
     "section": "Quarto",
     "text": "Quarto"
   },
   {
     "objectID": "intereses.html#latex",
     "href": "intereses.html#latex",
-    "title": "Intereses",
+    "title": "Herramientas TIC",
     "section": "LaTeX",
     "text": "LaTeX"
   },
   {
     "objectID": "intereses.html#arduino",
     "href": "intereses.html#arduino",
-    "title": "Intereses",
+    "title": "Herramientas TIC",
     "section": "Arduino",
     "text": "Arduino"
   },
   {
     "objectID": "intereses.html#raspberry-pi",
     "href": "intereses.html#raspberry-pi",
-    "title": "Intereses",
+    "title": "Herramientas TIC",
     "section": "Raspberry Pi",
     "text": "Raspberry Pi"
   },
   {
     "objectID": "about.html",
     "href": "about.html",
-    "title": "Cristian Rivera G.",
+    "title": "ADSO",
     "section": "",
-    "text": "Entusiasta de las tecnologías de la información y la ciencia de datos. De manera personal me he interesado en el aprendizaje de lenguajes informáticos como R, Python y SQL; esto me ha permitido adquirir habilidades en la recolección, consulta, depuración, exploración y visualización de bases de datos, competencias en la construcción de tableros (dashboard), creación de reportes y presentaciones interactivas. Junto con un conocimiento básico en electrónica, he podido interactuar con tecnologías IoT (Internet of things) a través de la programación de sistemas embebidos Arduino y Raspberry Pi y he reproducido pequeños proyectos de automatización con sensores de bajo costo.\nEste sitio web, contruido con Quarto, tiene como objetivo plasmar algunas notas sobre los temas anteriormente mencionados. Este espacio, a su vez, es usado como laboratorio de aprendizaje y de consulta por parte de quien escribe estas líneas; la precisión de los conceptos mencionados y desarrollados en esta página están abiertos al error, sólo es la opinión de quien redacta y crea este contenido.\nEn la mayoría de las actividades acá mostradas intento implementar software de código abierto, para que pueda ser fácil de compartir, reproducir y editar por otras personas."
+    "text": "El Análisis y Desarrollo de Software, abreviado en este espacio como ADSO, es el conjunto de procesos que se ejecutan de manera integral, para concebir, diseñar, crear, probar y mantener programas informáticos o aplicaciones computacionales.\nNo implica únicamente la creación de códigos o algoritmos, sino que también se enfoca en satisfacer las necesidades del usuario final, la optimización de procesos, la documentación de los mismos y en brindar soluciones tecnológicas innovadoras que impulsen el éxito de las organizaciones en el mundo digital.\nEn este sitio web se comparten algunos tópicos sobre este tema, estudiados dentro de la tecnología de Análisis y Desarrollo de Software, programa educativo ofrecido por el Servicio Nacional de Aprendizaje (SENA).\n\n\n Back to top"
+  },
+  {
+    "objectID": "intereses.html#software-de-sistema",
+    "href": "intereses.html#software-de-sistema",
+    "title": "Herramientas TIC",
+    "section": "Software de Sistema",
+    "text": "Software de Sistema\nConjunto de programas que se encarga de controlar y coordinar cómo opera el hardware, asegurando su funcionamiento de manera correcta. En esta categoría entran los sistemas operativos (como Windows, Mac OS, Linux o Android), que son como el jefe que organiza todo, los controladores de dispositivos que permiten a la computadora entender y comunicarse con sus componentes (disco duro, procesador, tarjeta gráfica, puertos USB, etc), y las herramientas para manejar archivos, como las utilidades de gestión, que nos ayudan a organizar y manejar nuestros documentos y datos."
+  },
+  {
+    "objectID": "intereses.html#software-de-aplicación",
+    "href": "intereses.html#software-de-aplicación",
+    "title": "Herramientas TIC",
+    "section": "Software de Aplicación",
+    "text": "Software de Aplicación\nSon aquellas herramientas especializadas que usamos para hacer cosas específicas en nuestra computadora o dispositivos. Estos programas están diseñados para resolver problemas o realizar tareas concretas que los usuarios necesitan. Por ejemplo, tenemos los programas de escribir documentos (procesadores de texto), como Microsoft Word, las hojas de cálculo para hacer cuentas como Microsoft Excel, programas de diseño gráfico para crear imágenes, navegadores web para buscar en Internet (como Google Chrome, Firefox, Opera, Safari), juegos para entretenerse, y aplicaciones de productividad para organizar tareas, entre otros ejemplos. Esta clase de software se adapta a distintas necesidades y nos ayudan a realizar distintas actividades en nuestros dispositivos digitales."
+  },
+  {
+    "objectID": "intereses.html#software-de-programación",
+    "href": "intereses.html#software-de-programación",
+    "title": "Herramientas TIC",
+    "section": "Software de Programación",
+    "text": "Software de Programación\nEn términos simples, estos programas se usan para crear aplicaciones mediante la escritura de código. Imagina estos programas como intérpretes que traducen nuestras ideas (escritas en un lenguaje que entendemos) a instrucciones que la computadora comprende (números y códigos). Estas herramientas asisten a programadores y desarrolladores en la creación, corrección y mantenimiento de los programas que usamos a diario. Generalmente, incluyen editores para escribir el código (como Visual Studio Code, RStudio, Sublime Text, Vim, Notepad++), compiladores que transforman el código a un formato que la computadora puede ejecutar, y depuradores para detectar errores.\nEl software está formado por un conjunto de instrucciones escritas en lenguajes de programación, como Java, C++, Python, y otros más. Estas instrucciones son el código fuente y actúan como un manual que los programadores escriben para decirle a la computadora qué hacer. Luego, este código fuente se convierte en un lenguaje que la computadora comprende directamente, conocido como código ejecutable o código máquina. Es como transformar las instrucciones escritas por humanos en un idioma que la computadora puede seguir al pie de la letra."
+  },
+  {
+    "objectID": "software.html",
+    "href": "software.html",
+    "title": "Software",
+    "section": "",
+    "text": "Es un término que se refiere a los programas informáticos, conjunto de instrucciones, datos o aplicaciones que permiten a una computadora realizar una variedad de tareas y funciones. Es una parte intangible de un sistema informático que proporciona las instrucciones lógicas y las estructuras necesarias para realizar diversas operaciones.\nEn palabras más cotidianas, podríamos comparar el software con el asistente de Tony Stark en la película Iron Man, llamado Jarvis. Este asistente controlaba el traje (hardware o computadora) y ayudaba a Stark en sus tareas. O también, de una manera más real, el sistema operativo (como Windows, Mac OS, Linux o Android) en nuestras computadoras personales es un tipo de software. Este software engloba todos esos programas e instrucciones que permiten que la computadora funcione y gestione sus recursos como la memoria, el procesamiento y la visualización de la información. Es como el cerebro detrás de las acciones de la computadora.\nSe distinguen algunos tipos principales de software:"
+  },
+  {
+    "objectID": "software.html#software-de-sistema",
+    "href": "software.html#software-de-sistema",
+    "title": "Software",
+    "section": "Software de Sistema",
+    "text": "Software de Sistema\nConjunto de programas que se encarga de controlar y coordinar cómo opera el hardware, asegurando su funcionamiento de manera correcta. En esta categoría entran los sistemas operativos (como Windows, Mac OS, Linux o Android), que son como el jefe que organiza todo, los controladores de dispositivos que permiten a la computadora entender y comunicarse con sus componentes (disco duro, procesador, tarjeta gráfica, puertos USB, etc), y las herramientas para manejar archivos, como las utilidades de gestión, que nos ayudan a organizar y manejar nuestros documentos y datos."
+  },
+  {
+    "objectID": "software.html#software-de-aplicación",
+    "href": "software.html#software-de-aplicación",
+    "title": "Software",
+    "section": "Software de Aplicación",
+    "text": "Software de Aplicación\nSon aquellas herramientas especializadas que usamos para hacer cosas específicas en nuestra computadora o dispositivos. Estos programas están diseñados para resolver problemas o realizar tareas concretas que los usuarios necesitan. Por ejemplo, tenemos los programas de escribir documentos (procesadores de texto), como Microsoft Word, las hojas de cálculo para hacer cuentas como Microsoft Excel, programas de diseño gráfico para crear imágenes, navegadores web para buscar en Internet (como Google Chrome, Firefox, Opera, Safari), juegos para entretenerse, y aplicaciones de productividad para organizar tareas, entre otros ejemplos. Esta clase de software se adapta a distintas necesidades y nos ayudan a realizar distintas actividades en nuestros dispositivos digitales."
+  },
+  {
+    "objectID": "software.html#software-de-programación",
+    "href": "software.html#software-de-programación",
+    "title": "Software",
+    "section": "Software de Programación",
+    "text": "Software de Programación\nEn términos simples, estos programas se usan para crear aplicaciones mediante la escritura de código. Imagina estos programas como intérpretes que traducen nuestras ideas (escritas en un lenguaje que entendemos) a instrucciones que la computadora comprende (números y códigos). Estas herramientas asisten a programadores y desarrolladores en la creación, corrección y mantenimiento de los programas que usamos a diario. Generalmente, incluyen editores para escribir el código (como Visual Studio Code, RStudio, Sublime Text, Vim, Notepad++), compiladores que transforman el código a un formato que la computadora puede ejecutar, y depuradores para detectar errores.\nEl software está formado por un conjunto de instrucciones escritas en lenguajes de programación, como Java, C++, Python, y otros más. Estas instrucciones son el código fuente y actúan como un manual que los programadores escriben para decirle a la computadora qué hacer. Luego, este código fuente se convierte en un lenguaje que la computadora comprende directamente, conocido como código ejecutable o código máquina. Es como transformar las instrucciones escritas por humanos en un idioma que la computadora puede seguir al pie de la letra.\nCrear software implica un conjunto de pasos, como planificar, diseñar, hacer y mantener programas de computadora. Estos programas pueden ser adaptados para cubrir necesidades específicas, ya sea para una persona en particular o para empresas completas. Es como construir herramientas digitales a medida que pueden hacer lo que cada uno necesita, ya sea un usuario común o una empresa grande."
+  },
+  {
+    "objectID": "hardware.html",
+    "href": "hardware.html",
+    "title": "Hardware",
+    "section": "",
+    "text": "El hardware se define como la parte física y material de un sistema informático. Comprende todos los elementos concretos que integran una computadora u otros dispositivos electrónicos. Estos componentes son objetos tangibles, se pueden tocar, conforman la estructura física de la máquina y es esencial para su funcionamiento.\nAlgunos ejemplos de hardware más comunes incluyen:"
+  },
+  {
+    "objectID": "software.html#recolección-de-requisitos",
+    "href": "software.html#recolección-de-requisitos",
+    "title": "Software",
+    "section": "Recolección de Requisitos",
+    "text": "Recolección de Requisitos\nEn esta fase se lleva a cabo la identificación y recopilación de los elementos necesarios para el sistema. Aquí se establece qué funciones debe realizar el software y cuáles son las demandas y requerimientos de los usuarios y los involucrados en el proyecto."
+  },
+  {
+    "objectID": "software.html#análisis",
+    "href": "software.html#análisis",
+    "title": "Software",
+    "section": "Análisis",
+    "text": "Análisis\nImplica una evaluación detallada de los requisitos obtenidos para comprender su viabilidad técnica y económica. Durante esta etapa, se establecen los límites y restricciones del proyecto, logrando una comprensión clara de los elementos esenciales que se deben construir."
+  },
+  {
+    "objectID": "software.html#diseño",
+    "href": "software.html#diseño",
+    "title": "Software",
+    "section": "Diseño",
+    "text": "Diseño\nUsando como base los requisitos y el análisis previo, se elabora la estructura del software, definiendo los elementos clave como los componentes, la configuración del sistema, los procedimientos lógicos y el diseño visual que interactúa con los usuarios."
+  },
+  {
+    "objectID": "software.html#implementacióncodificación",
+    "href": "software.html#implementacióncodificación",
+    "title": "Software",
+    "section": "Implementación/Codificación",
+    "text": "Implementación/Codificación\nEn esta etapa, se procede con la codificación del software, tomando como base el diseño previamente concebido. Aquí, los programadores y desarrolladores se dedican a traducir esta estructura y planificación en un código de programación efectivo y funcional."
+  },
+  {
+    "objectID": "software.html#pruebas",
+    "href": "software.html#pruebas",
+    "title": "Software",
+    "section": "Pruebas",
+    "text": "Pruebas\nDespués de completar el desarrollo del software, se procede a realizar pruebas rigurosas con el fin de identificar posibles errores, validar su correcto funcionamiento y asegurar que cumpla con los estándares y necesidades definidas previamente."
+  },
+  {
+    "objectID": "software.html#despliegueimplementación",
+    "href": "software.html#despliegueimplementación",
+    "title": "Software",
+    "section": "Despliegue/Implementación",
+    "text": "Despliegue/Implementación\nEs la puesta en marcha del software acabado en el entorno operativo real, permitiendo así que los usuarios finales lo utilicen y se beneficien de sus funcionalidades."
+  },
+  {
+    "objectID": "software.html#mantenimiento",
+    "href": "software.html#mantenimiento",
+    "title": "Software",
+    "section": "Mantenimiento",
+    "text": "Mantenimiento\nEn la fase de Mantenimiento, se llevan a cabo modificaciones, actualizaciones, correcciones de fallos y mejoras en el software con el objetivo de asegurar su desempeño continuo y adaptarse a las nuevas exigencias que puedan surgir con el tiempo.\nEstas etapas no son necesariamente lineales y secuenciales. En muchos casos, el ciclo de vida del software sigue un enfoque iterativo e incremental, donde las etapas se repiten y se superponen para mejorar continuamente el producto en respuesta a la retroalimentación del usuario y los cambios en los requisitos.\nEl entendimiento del ciclo de vida del software es esencial para los equipos de desarrollo, ya que proporciona un marco de referencia para la gestión, planificación, seguimiento y control de los proyectos de desarrollo de software."
+  },
+  {
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "BLOG",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "htic.html",
+    "href": "htic.html",
+    "title": "Herramientas TIC",
+    "section": "",
+    "text": "Las Tecnologías de la Información y la Comunicación (TIC) son recursos, dispositivos, programas, aplicaciones o equipos tecnológicos utilizados para recopilar, almacenar, procesar, transmitir y compartir información de manera digital. Estas herramientas están diseñadas para facilitar la comunicación, el acceso a la información, la gestión de datos y la realización de tareas en entornos digitales.\nLas TIC abarcan una amplia gama de herramientas, que incluyen:\nHardware: Dispositivos físicos como computadoras, servidores, dispositivos móviles, routers, impresoras, entre otros, utilizados para procesar y almacenar datos.\nSoftware: Programas, aplicaciones o sistemas operativos que permiten realizar diversas tareas, desde el procesamiento de texto y la creación de hojas de cálculo hasta el diseño gráfico, la gestión de bases de datos, la seguridad informática y mucho más.\nRedes y Comunicaciones: Infraestructuras y tecnologías que facilitan la conectividad y la transmisión de datos, como Internet, redes locales (LAN), redes inalámbricas (Wi-Fi), protocolos de comunicación, entre otros.\nServicios en la Nube: Plataformas que permiten almacenar, gestionar y acceder a datos y aplicaciones a través de internet, como almacenamiento en la nube, servicios de correo electrónico, software como servicio (SaaS), entre otros.\nTecnologías Emergentes: Herramientas innovadoras como inteligencia artificial (IA), realidad aumentada (RA), Internet de las cosas (IoT), blockchain, que están transformando la forma en que interactuamos con la información y el entorno digital.\nRStudio Quarto Android R SQL Arduino Markdown Python IoT Git Git Hub Raspberry Pi SGBD Navegador Web html IA Trello Windows OS Dashboard Excel Gmail Photoshop Linux Redes Sociales Skype Antivirus Visual Studio Canvas Oracle Lucidchart Wi-Fi LibreOffice StarUML"
+  },
+  {
+    "objectID": "htic.html#markdown",
+    "href": "htic.html#markdown",
+    "title": "Herramientas TIC",
+    "section": "Markdown",
+    "text": "Markdown"
+  },
+  {
+    "objectID": "htic.html#quarto",
+    "href": "htic.html#quarto",
+    "title": "Herramientas TIC",
+    "section": "Quarto",
+    "text": "Quarto"
+  },
+  {
+    "objectID": "htic.html#latex",
+    "href": "htic.html#latex",
+    "title": "Herramientas TIC",
+    "section": "LaTeX",
+    "text": "LaTeX"
+  },
+  {
+    "objectID": "hardware.html#unidad-central-de-procesamiento-o-cpu",
+    "href": "hardware.html#unidad-central-de-procesamiento-o-cpu",
+    "title": "Hardware",
+    "section": "Unidad Central de Procesamiento o CPU",
+    "text": "Unidad Central de Procesamiento o CPU\nActúa como el núcleo de la computadora, encargándose de llevar a cabo el procesamiento de instrucciones y la ejecución de operaciones. Es esencialmente el cerebro de la máquina, encargado de realizar las tareas y cálculos necesarios para el funcionamiento del sistema.\nLa velocidad de procesamiento de una CPU es medida en hertzios (Hz) que se refiere a la cantidad de ciclos de reloj que puede ejecutar por segundo. En la actualidad existen procesadores que alcanzan velocidades del orden de un millón de ciclos por segundo (MHz) y del orden de Mil millones de ciclos por segundo (GHz).\nEsta velocidad la podemos observar en nuestras computadoras. Por ejemplo un procesador o CPU con una velocidad de 2.4 GHz realiza 2.4 mil millones de ciclos por segundo, en términos sencillos, cada ciclo de reloj representa una oscilación eléctrica en el circuito del procesador. Durante cada ciclo, la CPU realiza operaciones básicas, como la ejecución de instrucciones. Por lo tanto, una CPU con una velocidad de 2.4 GHz puede realizar aproximadamente 2.4 mil millones de estas operaciones por segundo. ¡Nada mal para este cerebro! pero, ¿cuántas operaciones puede realizar el cerebro humano en un segundo?"
   }
 ]

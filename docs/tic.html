@@ -65,8 +65,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./softwarex.png" rel="icon" type="image/png">
-<script src="site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -98,22 +96,6 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
     "search-label": "Search"
   }
 }</script>
-
-<script type="text/javascript" charset="UTF-8">
-document.addEventListener('DOMContentLoaded', function () {
-cookieconsent.run({
-  "notice_banner_type":"simple",
-  "consent_type":"implied",
-  "palette":"light",
-  "language":"en",
-  "page_load_consent_levels":["strictly-necessary","functionality","tracking","targeting"],
-  "notice_banner_reject_button_hide":false,
-  "preferences_center_close_button_hide":false,
-  "website_name":""
-  });
-});
-</script> 
-  
 
 
 <meta property="og:title" content="ADSO - Herramientas TIC">
@@ -158,35 +140,35 @@ cookieconsent.run({
  <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-fundamentos" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-herramientas-tic" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
       <i class="bi bi-bi bi-joystick" role="img">
 </i> 
- <span class="menu-text">Fundamentos</span>
+ <span class="menu-text">Herramientas TIC</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-fundamentos">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-herramientas-tic">    
         <li>
-    <a class="dropdown-item" href="./intereses.html" rel="" target="">
- <span class="dropdown-text">Herramientas TIC</span></a>
+    <a class="dropdown-item" href="./intereses.qmd" rel="" target="">
+ <span class="dropdown-text">R</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./software.html" rel="" target="">
- <span class="dropdown-text">Software</span></a>
+    <a class="dropdown-item" href="./intereses.qmd" rel="" target="">
+ <span class="dropdown-text">SQL</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./hardware.html" rel="" target="">
- <span class="dropdown-text">Hardware</span></a>
+    <a class="dropdown-item" href="./intereses.qmd" rel="" target="">
+ <span class="dropdown-text">Python</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
     <a class="nav-link" href="./notas.html" rel="" target=""><i class="bi bi-bi bi-boxes" role="img">
 </i> 
- <span class="menu-text">Análisis</span></a>
+ <span class="menu-text">Notas</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./tableros.html" rel="" target=""><i class="bi bi-bi bi-stack" role="img">
 </i> 
- <span class="menu-text">Desarrollo</span></a>
+ <span class="menu-text">Tableros de datos</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-blog" role="button" data-bs-toggle="dropdown" aria-expanded="false" rel="" target="">
@@ -211,7 +193,6 @@ cookieconsent.run({
   </li>
 </ul>
             <div class="quarto-navbar-tools ms-auto">
-    <a href="https://github.com/" rel="" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-github"></i></a>
   <a href="" class="quarto-color-scheme-toggle quarto-navigation-tool  px-1" onclick="window.quartoToggleColorScheme(); return false;" title="Toggle dark mode"><i class="bi"></i></a>
 </div>
           </div> <!-- /navcollapse -->
@@ -227,8 +208,7 @@ cookieconsent.run({
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#importancia-de-las-tic-en-el-desarrollo-de-software" id="toc-importancia-de-las-tic-en-el-desarrollo-de-software" class="nav-link active" data-scroll-target="#importancia-de-las-tic-en-el-desarrollo-de-software">Importancia de las TIC en el Desarrollo de Software</a></li>
-  <li><a href="#sistemas-de-información" id="toc-sistemas-de-información" class="nav-link" data-scroll-target="#sistemas-de-información">Sistemas de información</a></li>
+  <li><a href="#sistemas-de-información" id="toc-sistemas-de-información" class="nav-link active" data-scroll-target="#sistemas-de-información">Sistemas de información</a></li>
   <li><a href="#bases-de-datos" id="toc-bases-de-datos" class="nav-link" data-scroll-target="#bases-de-datos">Bases de datos</a></li>
   <li><a href="#creación-de-documentos" id="toc-creación-de-documentos" class="nav-link" data-scroll-target="#creación-de-documentos">Creación de documentos</a>
   <ul class="collapse">
@@ -237,7 +217,14 @@ cookieconsent.run({
   <li><a href="#latex" id="toc-latex" class="nav-link" data-scroll-target="#latex">LaTeX</a></li>
   </ul></li>
   <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a></li>
-  <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
+  <li><a href="#sql" id="toc-sql" class="nav-link" data-scroll-target="#sql">SQL</a></li>
+  <li><a href="#python" id="toc-python" class="nav-link" data-scroll-target="#python">Python</a></li>
+  <li><a href="#iot" id="toc-iot" class="nav-link" data-scroll-target="#iot">IoT</a>
+  <ul class="collapse">
+  <li><a href="#arduino" id="toc-arduino" class="nav-link" data-scroll-target="#arduino">Arduino</a></li>
+  <li><a href="#raspberry-pi" id="toc-raspberry-pi" class="nav-link" data-scroll-target="#raspberry-pi">Raspberry Pi</a></li>
+  </ul></li>
+  <li><a href="#ciencia-de-datos" id="toc-ciencia-de-datos" class="nav-link" data-scroll-target="#ciencia-de-datos">Ciencia de datos</a></li>
   </ul>
 </nav>
     </div>
@@ -261,33 +248,8 @@ cookieconsent.run({
 
 </header>
 
-<p>Las Tecnologías de la Información y la Comunicación (TIC) son recursos, dispositivos, programas, aplicaciones o equipos tecnológicos utilizados para recopilar, almacenar, procesar, transmitir y compartir información de manera digital. Estas herramientas están diseñadas para facilitar la comunicación, el acceso a la información, la gestión de datos y la realización de tareas en entornos digitales.</p>
-<center>
-<img src="communication.png" class="img-fluid">
-</center>
+<p><span class="badge rounded-pill bg-secondary">Bases de datos</span> <span class="badge rounded-pill bg-info">Quarto</span> <span class="badge rounded-pill bg-success">Sistemas de información</span> <span class="badge rounded-pill bg-danger">R</span> <span class="badge rounded-pill bg-warning">SQL</span> <span class="badge rounded-pill bg-light">Arduino</span> <span class="badge rounded-pill bg-warning">Markdown</span> <span class="badge rounded-pill bg-danger">Python</span> <span class="badge rounded-pill bg-success">IoT</span> <span class="badge rounded-pill bg-secondary">Git</span> <span class="badge rounded-pill bg-info">Git Hub</span> <span class="badge rounded-pill bg-light">Raspberry Pi</span> <span class="badge rounded-pill bg-success">Ciencia de datos</span> <span class="badge rounded-pill bg-info">Automatización</span> <span class="badge rounded-pill bg-danger">html</span> <span class="badge rounded-pill bg-light">IA</span> <span class="badge rounded-pill bg-warning">Circuitos eléctricos</span> <span class="badge rounded-pill bg-info">Divulgación</span> <span class="badge rounded-pill bg-danger">Dashboard</span></p>
 <p><br></p>
-<p>Las TIC abarcan una amplia gama de herramientas, que incluyen:</p>
-<p><strong>Hardware:</strong> Dispositivos físicos como computadoras, servidores, dispositivos móviles, routers, impresoras, entre otros, utilizados para procesar y almacenar datos.</p>
-<p><strong>Software:</strong> Programas, aplicaciones o sistemas operativos que permiten realizar diversas tareas, desde el procesamiento de texto y la creación de hojas de cálculo hasta el diseño gráfico, la gestión de bases de datos, la seguridad informática y mucho más.</p>
-<p><strong>Redes y Comunicaciones:</strong> Infraestructuras y tecnologías que facilitan la conectividad y la transmisión de datos, como Internet, redes locales (LAN), redes inalámbricas (Wi-Fi), protocolos de comunicación, entre otros.</p>
-<p><strong>Servicios en la Nube:</strong> Plataformas que permiten almacenar, gestionar y acceder a datos y aplicaciones a través de internet, como almacenamiento en la nube, servicios de correo electrónico, software como servicio (SaaS), entre otros.</p>
-<p><strong>Tecnologías Emergentes:</strong> Herramientas innovadoras como inteligencia artificial (IA), realidad aumentada (RA), Internet de las cosas (IoT), blockchain, que están transformando la forma en que interactuamos con la información y el entorno digital.</p>
-<p><br></p>
-<p><span class="badge rounded-pill bg-secondary">RStudio</span> <span class="badge rounded-pill bg-info">Quarto</span> <span class="badge rounded-pill bg-success">Android</span> <span class="badge rounded-pill bg-danger">R</span> <span class="badge rounded-pill bg-warning">SQL</span> <span class="badge rounded-pill bg-light">Arduino</span> <span class="badge rounded-pill bg-warning">Markdown</span> <span class="badge rounded-pill bg-danger">Python</span> <span class="badge rounded-pill bg-success">IoT</span> <span class="badge rounded-pill bg-secondary">Git</span> <span class="badge rounded-pill bg-info">Git Hub</span> <span class="badge rounded-pill bg-light">Raspberry Pi</span> <span class="badge rounded-pill bg-success">SGBD</span> <span class="badge rounded-pill bg-info">Navegador Web</span> <span class="badge rounded-pill bg-danger">html</span> <span class="badge rounded-pill bg-light">IA</span> <span class="badge rounded-pill bg-warning">Trello</span> <span class="badge rounded-pill bg-info">Windows OS</span> <span class="badge rounded-pill bg-danger">Dashboard</span> <span class="badge rounded-pill bg-success">Excel</span> <span class="badge rounded-pill bg-secondary">Gmail</span> <span class="badge rounded-pill bg-info">Photoshop</span> <span class="badge rounded-pill bg-light">Linux</span> <span class="badge rounded-pill bg-success">Redes Sociales</span> <span class="badge rounded-pill bg-info">Skype</span> <span class="badge rounded-pill bg-danger">Antivirus</span> <span class="badge rounded-pill bg-light">Visual Studio</span> <span class="badge rounded-pill bg-warning">Canvas</span> <span class="badge rounded-pill bg-info">Oracle</span> <span class="badge rounded-pill bg-danger">Lucidchart</span> <span class="badge rounded-pill bg-secondary">Wi-Fi</span> <span class="badge rounded-pill bg-info">LibreOffice</span> <span class="badge rounded-pill bg-success">StarUML</span></p>
-<p><br></p>
-<section id="importancia-de-las-tic-en-el-desarrollo-de-software" class="level1">
-<h1>Importancia de las TIC en el Desarrollo de Software</h1>
-<p>Las Tecnologías de la Información y la Comunicación (TIC) juegan un rol fundamental en la creación de programas informáticos, son un pilar clave en todas las etapas del desarrollo del software.</p>
-<center>
-<img src="cloud.png" class="img-fluid">
-</center>
-<p>Facilitan la comunicación y el trabajo colaborativo de manera instantánea entre equipos de desarroladores que se encuentran en diferentes puntos geogŕaficos. Las aplicaciones de mensajería, videoconferencia, así como las plataformas colaborativas en la nube facilitan la interacción entre desarrolladores, diseñadores, analistas y clientes involucrados en los proyectos.</p>
-<p>Estas herramientas fomentan la eficiencia, la calidad y la innovación durante el proceso creativo, son parte del éxito para construir software adaptable a las demandas variables del mercado y a las necesidades de los usuraios finales.</p>
-<p>Los entornos de desarrollo integrado (IDE) y los lenguajes de programación de código abierto son herramientas que optimizan el tiempo y los recursos de un equipo de trabajo, además, agilizan el proceso de programación. Los IDE tienen incorporados complementos visuales que hacen la programación de cualquier lenguaje, una tarea más placentera. Algunos de los más usados son RStudio, Visual Studio Code y Spyder, pero no son las únicas herramientas que facilitan la codificación, también se ofrecen soluciones para la integración contínua y el despliegue contínuo que posibilita la implementación de cambios de manera constante, como Jenkins, AWS CodePipeline, Azure Pipelines, todo esto ocurre bajo un servidor de versionado como lo es Git.</p>
-<p>La documentación del software es un elemento crítico en el despliegue de aplicaciones y sistemas informáticos. Consiste en la creación, mantenimiento y organización de diversos tipos de documentos que describen el diseño, funcionamiento, implementación, mantenimiento y uso del software. Esta documentación es esencial para los diferentes roles dentro y fuera del equipo. Los procesadores de texto (Microsoft Word, Google Docs, Markdown, LibreOffice Writer, Apple Pages, etc), se convierten en elementos imprescindibles para ejecutar esta tarea.</p>
-<p>Dentro de las TIC, se encuentran herramientas específicas para la gestión de proyectos de software, como sistemas de seguimiento de problemas, control de versiones, gestión ágil (Scrum, Kanban) y software de planificación; las cuales permiten una gestión eficiente de tareas, plazos y recursos. Algunos de estos software incluyen Trello, Jira, etc.</p>
-<p>Innumerables son las herramientas TIC de las cuales disponemos hoy en día que facilitan el trabajo de los programadores y de las partes interesadas en el software como producto, pero las telecomunicaciones serían impracticables sin los dispositivos electrónicos que las llevan a cabo, todos ellos, se podrían ver como pequeñas computadoras que procesan los diferentes estados de la energía eléctrica para convertirla en información (números, imágenes, letras, videos, etc). Esta sinergia entre hardware y software (sistemas operativos, programas, aplicaciones) hacen posible el mundo digital sobre el cual navegamos a diario.</p>
-</section>
 <section id="sistemas-de-información" class="level1">
 <h1>Sistemas de información</h1>
 <p>Un sistema de información es un conjunto de elementos que interactúan entre sí para recopilar, procesar, almacenar y distribuir información con el fin de apoyar la toma de decisiones, la coordinación y el control dentro de una organización. Este sistema puede ser manual o automatizado, y se utiliza para capturar datos e información, procesarlos y convertirlos en conocimiento útil para la organización.</p>
@@ -360,7 +322,7 @@ cookieconsent.run({
 <span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Calificaciones"</span>, <span class="at">y =</span> <span class="st">"Cantidad de estudiantes"</span>, <span class="at">title =</span> <span class="st">"Calificaciones de los estudiantes"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="intereses_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
+<p><img src="tic_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
@@ -387,7 +349,7 @@ cookieconsent.run({
 <span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#53c68c"</span>, <span class="st">"#a5d7a7"</span>, <span class="st">"#f9d5e5"</span>, <span class="st">"#f19cbb"</span>, <span class="st">"#c0392b"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="intereses_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
+<p><img src="tic_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
@@ -426,7 +388,7 @@ cookieconsent.run({
 ℹ Please use `linewidth` instead.</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="intereses_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
+<p><img src="tic_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
@@ -459,7 +421,7 @@ cookieconsent.run({
 <span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Densidad"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="intereses_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
+<p><img src="tic_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
@@ -495,7 +457,7 @@ cookieconsent.run({
 <span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Valores"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="intereses_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
+<p><img src="tic_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
@@ -517,7 +479,7 @@ cookieconsent.run({
 <pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="intereses_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
+<p><img src="tic_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
@@ -541,7 +503,7 @@ cookieconsent.run({
 ℹ Please use `after_stat(density)` instead.</code></pre>
 </div>
 <div class="cell-output-display">
-<p><img src="intereses_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
+<p><img src="tic_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 <div class="cell">
@@ -562,12 +524,27 @@ cookieconsent.run({
 <span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Densidad y histograma apilados con fondo negro"</span>, <span class="at">x =</span> <span class="st">"Datos"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
 </details>
 <div class="cell-output-display">
-<p><img src="intereses_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
+<p><img src="tic_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
 </div>
 </div>
 </section>
-<section id="referencias" class="level1">
-<h1>Referencias</h1>
+<section id="sql" class="level1">
+<h1>SQL</h1>
+</section>
+<section id="python" class="level1">
+<h1>Python</h1>
+</section>
+<section id="iot" class="level1">
+<h1>IoT</h1>
+<section id="arduino" class="level2">
+<h2 class="anchored" data-anchor-id="arduino">Arduino</h2>
+</section>
+<section id="raspberry-pi" class="level2">
+<h2 class="anchored" data-anchor-id="raspberry-pi">Raspberry Pi</h2>
+</section>
+</section>
+<section id="ciencia-de-datos" class="level1">
+<h1>Ciencia de datos</h1>
 <div>
 <ul class="pagination pagination-sm">
 <li class="page-item disabled">
@@ -597,7 +574,7 @@ cookieconsent.run({
 
 </section>
 
-<a onclick="window.scrollTo(0, 0); return false;" role="button" id="quarto-back-to-top"><i class="bi bi-arrow-up"></i> Back to top</a></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -952,7 +929,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Página web creada con <a href="https://quarto.org/">Quarto</a>. Cristian Rivera G.<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-center">Página web creada con <a href="https://quarto.org/">Quarto</a>. Cristian Rivera G.</div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
