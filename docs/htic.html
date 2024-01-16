@@ -115,6 +115,8 @@ cookieconsent.run({
 </script> 
   
 
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <meta property="og:title" content="ADSO - Herramientas TIC">
 <meta property="og:description" content="">
@@ -230,12 +232,6 @@ cookieconsent.run({
   <li><a href="#importancia-de-las-tic-en-el-desarrollo-de-software" id="toc-importancia-de-las-tic-en-el-desarrollo-de-software" class="nav-link active" data-scroll-target="#importancia-de-las-tic-en-el-desarrollo-de-software">Importancia de las TIC en el Desarrollo de Software</a></li>
   <li><a href="#sistemas-de-información" id="toc-sistemas-de-información" class="nav-link" data-scroll-target="#sistemas-de-información">Sistemas de información</a></li>
   <li><a href="#bases-de-datos" id="toc-bases-de-datos" class="nav-link" data-scroll-target="#bases-de-datos">Bases de datos</a></li>
-  <li><a href="#creación-de-documentos" id="toc-creación-de-documentos" class="nav-link" data-scroll-target="#creación-de-documentos">Creación de documentos</a>
-  <ul class="collapse">
-  <li><a href="#markdown" id="toc-markdown" class="nav-link" data-scroll-target="#markdown">Markdown</a></li>
-  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto">Quarto</a></li>
-  <li><a href="#latex" id="toc-latex" class="nav-link" data-scroll-target="#latex">LaTeX</a></li>
-  </ul></li>
   <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a></li>
   <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
   </ul>
@@ -285,21 +281,20 @@ cookieconsent.run({
 <p>Estas herramientas fomentan la eficiencia, la calidad y la innovación durante el proceso creativo, son parte del éxito para construir software adaptable a las demandas variables del mercado y a las necesidades de los usuraios finales.</p>
 <p>Los entornos de desarrollo integrado <a href="https://es.wikipedia.org/wiki/Entorno_de_desarrollo_integrado">(IDE)</a> son herramientas que optimizan el tiempo y los recursos de un equipo de trabajo, además, agilizan el proceso de programación. Los IDE tienen incorporados complementos visuales que hacen la programación de cualquier lenguaje, una tarea más placentera. Algunos de los más usados son <a href="https://posit.co/products/open-source/rstudio/">RStudio</a>, <a href="https://code.visualstudio.com/">Visual Studio Code</a> y <a href="https://www.spyder-ide.org/">Spyder</a>, pero no son las únicas herramientas que facilitan la codificación, también se ofrecen soluciones para la integración contínua y el despliegue contínuo que posibilita la implementación de cambios de manera constante, como <a href="https://www.jenkins.io/">Jenkins</a>, <a href="https://aws.amazon.com/es/codepipeline/">AWS CodePipeline</a>, <a href="https://azure.microsoft.com/es-es/products/devops/pipelines/#feature-oc660f">Azure Pipelines</a>, todo esto ocurre bajo un servidor de versionado como lo es <a href="https://git-scm.com/">Git</a>.</p>
 <p>La documentación del software es un elemento crítico en el despliegue de aplicaciones y sistemas informáticos. Consiste en la creación, actualización y organización de diversos tipos de documentos que describen el diseño, funcionamiento, implementación, mantenimiento y uso del software. Esta documentación es esencial para los diferentes roles dentro y fuera del equipo. Los procesadores de texto (<a href="https://www.microsoft.com/es-es/microsoft-365/free-office-online-for-the-web">Microsoft Word</a>, Google Docs, <a href="https://es.libreoffice.org/">LibreOffice Writer</a>, <a href="https://www.apple.com/es/pages/">Apple Pages</a>, etc), se convierten en elementos imprescindibles para ejecutar esta tarea.</p>
+<p>Otros elementos bastante útiles para crear documentación de calidad son, <a href="https://www.latex-project.org/"><span class="math inline">\(\LaTeX\)</span></a>, el cual es un sistema de composición de texto utilizado principalmente para la creación de documentos académicos y científicos, y <a href="https://www.markdownguide.org/"><em>Markdown</em></a> que es un lenguaje de marcado que se utiliza para crear documentos que pueden ser convertidos a diferentes formatos, como HTML o PDF.</p>
 <p>Dentro de las TIC, se encuentran herramientas específicas para la gestión de proyectos de software, como sistemas de seguimiento de problemas, control de versiones, gestión ágil (Scrum, Kanban) y software de planificación; las cuales permiten una administración eficiente de tareas, plazos y recursos. Algunos de estos software incluyen Trello, Jira, etc.</p>
-<p>Innumerables son las herramientas TIC de las cuales disponemos hoy en día que facilitan el trabajo de los programadores y de las partes interesadas en el software como producto, pero las telecomunicaciones serían impracticables sin los dispositivos electrónicos que las llevan a cabo, todos ellos, se podrían ver como pequeñas computadoras que procesan los diferentes estados de la energía eléctrica para convertirla en información (números, imágenes, letras, videos, etc), algunos de estos dispositivos son las antenas que se utilizan para transmitir y recibir señales inalámbricas, routers los cuales facilitan la transferencia de datos, modems que permiten la conexión a internet, entre otros como las computadoras personales, dispositivos de audio y video. Esta sinergia entre hardware y software (sistemas operativos, programas, aplicaciones) hacen posible el mundo digital sobre el cual navegamos a diario.</p>
+<p>Las telecomunicaciones serían impracticables sin los dispositivos electrónicos que las llevan a cabo, todos ellos, se podrían ver como pequeñas computadoras que procesan los diferentes estados de la energía eléctrica para convertirla en información (números, imágenes, letras, videos, etc), algunos de estos dispositivos incluyen las antenas que se utilizan para transmitir y recibir señales inalámbricas, routers los cuales facilitan la transferencia de datos, modems que permiten la conexión a internet, entre otros como las computadoras personales, dispositivos de audio y video. Esta sinergia entre hardware y software (sistemas operativos, programas, aplicaciones) hacen posible el mundo digital sobre el cual navegamos a diario.</p>
 </section>
 <section id="sistemas-de-información" class="level1">
 <h1>Sistemas de información</h1>
 <p>Un sistema de información es un conjunto de elementos que interactúan entre sí para recopilar, procesar, almacenar y distribuir información con el fin de apoyar la toma de decisiones, la coordinación y el control dentro de una organización. Este sistema puede ser manual o automatizado, y se utiliza para capturar datos e información, procesarlos y convertirlos en conocimiento útil para la organización.</p>
-<p>Un sistema de información se compone de varios componentes, incluyendo hardware, software, bases de datos, redes, procedimientos y personas. El hardware se refiere a los dispositivos físicos, como computadoras, servidores, impresoras y dispositivos móviles, que se utilizan para procesar y almacenar datos. El software incluye las aplicaciones informáticas y los sistemas operativos que se ejecutan en el hardware. Las bases de datos son estructuras de almacenamiento de datos que permiten la gestión y el acceso a la información. Las redes de comunicación permiten la transferencia de datos y la conectividad entre los diferentes componentes del sistema de información.</p>
+<p>Imagina que tienes muchos datos sobre algo importante, como una tienda que vende cosas. Un sistema de información te ayuda a poner todos esos datos en orden, como cuánto dinero ganaste, cuántos productos vendiste y quiénes son tus clientes. Así, puedes tomar acciones más inteligentes y hacer que todo funcione mejor. Es como tener un asistente que te ayuda a mantener todo en control y a tomar buenas decisiones. Cuando llega un cliente a la tienda y el vendedor escanea el código de barras, se activa un sistema de información que registra la venta, actualiza el inventario y realiza el seguimiento de las transacciones financieras.</p>
+<p>Un <em>eMarketplace</em> o tienda electrónica también es un buen ejemplo de sistema de información, allí se alberga información sobre cientos de productos, que pueden ser recuperados por un usuario que desee adquirlo vía electrónica, se realizan las transacciones y se actualiza el inventario del sitio.</p>
+<p>Una biblioteca también puede considerarse un tipo de sistema de información. En una biblioteca, se gestionan y organizan diversos tipos de información, como libros, revistas, documentos y otros recursos usando un sistema de clasificación, además, se llevan los registros de las personas que toman prestados los libros, la fecha del pŕestamo y fecha de devolución, todos estos datos configuran un basto sistema de información que ayuda al personal del lugar a llevar control sobre el catálogo de libros y documentos.</p>
+<p>Un sistema de información se compone de hardware, software, bases de datos, redes, procedimientos y personas.</p>
+<p>Las bases de datos son estructuras de almacenamiento de datos que permiten la gestión y el acceso a la información. Las redes de comunicación permiten la transferencia de datos y la conectividad entre los diferentes componentes del sistema de información.</p>
 <p>Los procedimientos son las reglas y normas que se siguen para gestionar y utilizar el sistema de información de manera efectiva y eficiente. Por último, las personas son los usuarios finales que utilizan el sistema de información para recopilar, procesar y analizar información con el fin de tomar decisiones informadas y mejorar el rendimiento organizacional.</p>
-<p>Los componentes de un sistema de información pueden variar según el tipo de sistema y la organización que lo utilice. Sin embargo, en general, un sistema de información está compuesto por los siguientes componentes:</p>
-<p>Hardware: se refiere a los componentes físicos del sistema, como computadoras, servidores, dispositivos de almacenamiento, impresoras y dispositivos móviles.</p>
-<p>Software: incluye los programas y aplicaciones que se utilizan para procesar y gestionar la información en el sistema, como sistemas operativos, software de bases de datos, aplicaciones de productividad y software de seguridad.</p>
-<p>Datos: son la información que se recopila y se almacena en el sistema de información, como registros de clientes, transacciones financieras, datos de inventario, entre otros.</p>
-<p>Procedimientos: son las reglas y normas que se siguen para utilizar el sistema de información de manera efectiva y eficiente. Incluyen los procedimientos de seguridad, de respaldo de datos y de mantenimiento.</p>
-<p>Personas: son los usuarios finales que utilizan el sistema de información para recopilar, procesar y analizar la información para tomar decisiones informadas. También incluyen a los administradores del sistema y al personal de soporte técnico.</p>
-<p>Redes: son los medios de comunicación que permiten la transferencia de datos entre los diferentes componentes del sistema de información, como la red local (LAN), la red de área amplia (WAN) y la nube.</p>
+<p>Los componentes de un sistema de información pueden variar según el tipo de sistema y la organización que lo utilice.</p>
 </section>
 <section id="bases-de-datos" class="level1">
 <h1>Bases de datos</h1>
@@ -312,34 +307,6 @@ cookieconsent.run({
 <p><strong>Bases de datos orientadas a objetos:</strong> están diseñadas para almacenar objetos y sus relaciones. Estas bases de datos se utilizan principalmente en aplicaciones de programación orientada a objetos y son eficientes para aplicaciones con complejidad en la estructura de datos.</p>
 <p><strong>Bases de datos espaciales:</strong> se utilizan para almacenar y gestionar información espacial y geográfica. Son útiles en aplicaciones como sistemas de información geográfica (GIS) y análisis de datos espaciales.</p>
 <p>Cada tipo de base de datos tiene sus ventajas y desventajas, y se utiliza en distintos contextos dependiendo de las necesidades de la aplicación o proyecto.</p>
-</section>
-<section id="creación-de-documentos" class="level1">
-<h1>Creación de documentos</h1>
-<p>La creación de documentos digitales es una tarea común en la era digital actual. Los documentos digitales son archivos que contienen información escrita, gráfica, multimedia o combinaciones de estos elementos.</p>
-<p>Los documentos digitales pueden ser creados con diferentes herramientas de software, como procesadores de texto, hojas de cálculo, editores de imágenes y presentaciones.</p>
-<p>Para crear un documento digital, es importante tener en cuenta el propósito del documento, el público objetivo y el contenido que se incluirá en el documento. Por ejemplo, si se está creando un informe empresarial, se debe tener en cuenta la estructura y el estilo adecuados para transmitir la información de manera clara y concisa. Además, es importante considerar la inclusión de elementos visuales para mejorar la comprensión del lector.</p>
-<p>Una vez que se tiene una idea clara del propósito y el contenido del documento digital, se puede utilizar una herramienta de software adecuada para crear el documento. Las herramientas de software para la creación de documentos digitales suelen tener una amplia variedad de funciones que permiten la edición y formateo de texto, la inclusión de imágenes y gráficos, la creación de tablas y la generación de índices y referencias cruzadas. Es importante conocer las funciones y características de la herramienta de software elegida para maximizar su uso en la creación de documentos digitales efectivos y de alta calidad.</p>
-<p>Existen diferentes herramientas de software que se pueden utilizar para crear documentos digitales, como Microsoft Word, PDF, LaTeX y HTML. Cada herramienta de software tiene sus propias ventajas y desventajas, y elegir la herramienta adecuada depende del propósito del documento y las necesidades del usuario.</p>
-<p>Aquí hay diez procesadores de texto que se pueden utilizar para crear documentos digitales:</p>
-<p>Microsoft Word: Es uno de los procesadores de texto más utilizados en todo el mundo, que viene con una amplia variedad de funciones y plantillas para la creación de diferentes tipos de documentos.</p>
-<p>Google Docs: Es una aplicación basada en la nube que permite la creación de documentos en línea y la colaboración en tiempo real.</p>
-<p>LibreOffice Writer: Es un procesador de texto de código abierto que es gratuito para descargar y usar. Es una alternativa de bajo costo a Microsoft Word.</p>
-<p>Apple Pages: Es un procesador de texto que viene con el sistema operativo de Macintosh y se integra con otras aplicaciones de Apple.</p>
-<p>WPS Office Writer: Es un procesador de texto gratuito que es muy similar a Microsoft Word en términos de interfaz y características.</p>
-<p>AbiWord: Es un procesador de texto de código abierto que es liviano y fácil de usar.</p>
-<p>Zoho Writer: Es una aplicación basada en la nube que permite la creación y edición de documentos en línea.</p>
-<p>Apache OpenOffice Writer: Es un procesador de texto de código abierto que es una alternativa gratuita a Microsoft Word.</p>
-<p>LaTeX: Es un sistema de composición de texto utilizado principalmente para la creación de documentos académicos y científicos.</p>
-<p>Markdown: Es un lenguaje de marcado que se utiliza para crear documentos que pueden ser convertidos a diferentes formatos, como HTML o PDF.</p>
-<section id="markdown" class="level2">
-<h2 class="anchored" data-anchor-id="markdown">Markdown</h2>
-</section>
-<section id="quarto" class="level2">
-<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
-</section>
-<section id="latex" class="level2">
-<h2 class="anchored" data-anchor-id="latex">LaTeX</h2>
-</section>
 </section>
 <section id="r" class="level1">
 <h1>R</h1>
@@ -568,31 +535,6 @@ cookieconsent.run({
 </section>
 <section id="referencias" class="level1">
 <h1>Referencias</h1>
-<div>
-<ul class="pagination pagination-sm">
-<li class="page-item disabled">
-<a class="page-link" href="#">«</a>
-</li>
-<li class="page-item active">
-<a class="page-link" href="#">1</a>
-</li>
-<li class="page-item">
-<a class="page-link" href="#">2</a>
-</li>
-<li class="page-item">
-<a class="page-link" href="#">3</a>
-</li>
-<li class="page-item">
-<a class="page-link" href="#">4</a>
-</li>
-<li class="page-item">
-<a class="page-link" href="#">5</a>
-</li>
-<li class="page-item">
-<a class="page-link" href="#">»</a>
-</li>
-</ul>
-</div>
 
 
 </section>
