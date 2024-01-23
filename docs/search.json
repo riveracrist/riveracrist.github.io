@@ -263,6 +263,125 @@
     "href": "hardware.html#unidad-central-de-procesamiento-o-cpu",
     "title": "Hardware",
     "section": "Unidad Central de Procesamiento o CPU",
-    "text": "Unidad Central de Procesamiento o CPU\nActúa como el núcleo de la computadora, encargándose de llevar a cabo el procesamiento de instrucciones y la ejecución de operaciones. Es esencialmente el cerebro de la máquina, encargado de realizar las tareas y cálculos necesarios para el funcionamiento del sistema.\nLa velocidad de procesamiento de una CPU es medida en hertzios (Hz) que se refiere a la cantidad de ciclos de reloj que puede ejecutar por segundo. En la actualidad existen procesadores que alcanzan velocidades del orden de un millón de ciclos por segundo (MHz) y del orden de Mil millones de ciclos por segundo (GHz).\nEsta velocidad la podemos observar en nuestras computadoras. Por ejemplo un procesador o CPU con una velocidad de 2.4 GHz realiza 2.4 mil millones de ciclos por segundo, en términos sencillos, cada ciclo de reloj representa una oscilación eléctrica en el circuito del procesador. Durante cada ciclo, la CPU realiza operaciones básicas, como la ejecución de instrucciones. Por lo tanto, una CPU con una velocidad de 2.4 GHz puede realizar aproximadamente 2.4 mil millones de estas operaciones por segundo. ¡Nada mal para este cerebro! pero, ¿cuántas operaciones puede realizar el cerebro humano en un segundo?"
+    "text": "Unidad Central de Procesamiento o CPU\nActúa como el núcleo de la computadora, encargándose de llevar a cabo el procesamiento de instrucciones y la ejecución de operaciones. Es esencialmente el cerebro de la máquina, encargado de realizar las tareas y cálculos necesarios para el funcionamiento del sistema.\nLa velocidad de procesamiento de una CPU es medida en hertzios (Hz) que se refiere a la cantidad de ciclos de reloj que puede ejecutar por segundo. En la actualidad existen procesadores que alcanzan velocidades del orden de un millón de ciclos por segundo (MHz) y del orden de Mil millones de ciclos por segundo (GHz).\nEsta velocidad la podemos observar en nuestras computadoras. Por ejemplo un procesador o CPU con una velocidad de 2.4 GHz realiza 2.4 mil millones de ciclos por segundo, en términos sencillos, cada ciclo de reloj representa una oscilación eléctrica en el circuito del procesador. Durante cada ciclo, la CPU realiza operaciones básicas, como la ejecución de instrucciones. Por lo tanto, una CPU con una velocidad de 2.4 GHz puede realizar aproximadamente 2.4 mil millones de estas operaciones por segundo. ¡Nada mal para este cerebro!\n¿Cuántas operaciones podrá realizar el cerebro humano en un segundo?"
+  },
+  {
+    "objectID": "planeacion.html",
+    "href": "planeacion.html",
+    "title": "TABLEROS",
+    "section": "",
+    "text": "En este espacio se desea mostrar algunos ejemplos de tableros de datos hechos con el paquete de R, llamado flexdashboard.\nUn tablero de datos (o dashboard en inglés) es una herramienta de visualización de datos que permite presentar información de manera clara y concisa en un solo lugar.\nLos tableros de datos suelen mostrar información en forma de gráficos, tablas, mapas y otros elementos visuales, y pueden incluir datos en tiempo real o datos históricos. También pueden ser interactivos, lo que permite a los usuarios explorar y analizar los datos en detalle.\nLos tableros de datos se utilizan en una amplia variedad de aplicaciones, desde el seguimiento del rendimiento de ventas y marketing hasta el monitoreo del tráfico de un sitio web o la supervisión del rendimiento de una red informática. Al presentar información de manera clara y accesible, los tableros de datos pueden ayudar a los usuarios a tomar decisiones informadas y a identificar áreas que requieren atención o mejora.\nLo siguientes ejemplos, son tableros de datos estáticos que presentan información derivada de la exploración hecha con algunas bases de datos, se presentan los resultados de estos cálculos en forma de imágen, tablas, etc.\nLo que se busca es dar “vida” a los datos mediante un modelo de tablero que sea amigable con el usuario; el dashboard de muestra como una herramienta o alternativa para presentar un reporte o informe.\n\nTablero de control sistema de riego\nEste es un ejemplo de tablero de datos de un sistema de riego para una planta, que captura información a través de sensores controlados con Arduino. Esta información capturada se muestra en el tablero, variables medidas como humedad del suelo, temperatura ambiente, nivel de agua, entre otras.\nSistema de riego\n\n\nTablero de ejemplo\nEste es un tablero con información generada de manera aleatoria, para ejemplificar un dashboard.\nTablero ejemplo\n\n\nTablero de datos call center\nEjemplo de dashboard para presentar una situación en particular dentro de un call center que atiende cierto número de llamadas.\n\n\nTablero ejemplo notas estudiantes\nEn este tablero se realiza un informe con las notas de algunos estudiantes. Los datos para este tablero de datos se generaron de manera aleatoria.\n\n\n\n\n Back to top"
+  },
+  {
+    "objectID": "ejecucion.html",
+    "href": "ejecucion.html",
+    "title": "**ADSO**",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "evaluacion.html",
+    "href": "evaluacion.html",
+    "title": "BLOG",
+    "section": "",
+    "text": "Back to top"
+  },
+  {
+    "objectID": "analisis.html",
+    "href": "analisis.html",
+    "title": "Análisis",
+    "section": "",
+    "text": "El conocimiento adquiere verdadero valor cuando se comparte."
+  },
+  {
+    "objectID": "analisis.html#modelo-relacional",
+    "href": "analisis.html#modelo-relacional",
+    "title": "Análisis",
+    "section": "Modelo Relacional",
+    "text": "Modelo Relacional\nEs el modelo más utilizado actualmente. Organiza los datos en tablas con filas y columnas, y establece relaciones entre las tablas mediante claves primarias y externas."
+  },
+  {
+    "objectID": "analisis.html#modelo-jerárquico",
+    "href": "analisis.html#modelo-jerárquico",
+    "title": "Análisis",
+    "section": "Modelo Jerárquico",
+    "text": "Modelo Jerárquico\nOrganiza los datos en una estructura de árbol, donde cada registro tiene un único padre y múltiples hijos."
+  },
+  {
+    "objectID": "analisis.html#modelo-de-red",
+    "href": "analisis.html#modelo-de-red",
+    "title": "Análisis",
+    "section": "Modelo de Red",
+    "text": "Modelo de Red\nSimilar al modelo jerárquico, pero permite que un registro tenga múltiples padres, lo que permite relaciones más complejas."
+  },
+  {
+    "objectID": "analisis.html#modelo-orientado-a-objetos",
+    "href": "analisis.html#modelo-orientado-a-objetos",
+    "title": "Análisis",
+    "section": "Modelo Orientado a Objetos",
+    "text": "Modelo Orientado a Objetos\nAlmacena los datos en forma de objetos, que pueden contener atributos y métodos."
+  },
+  {
+    "objectID": "analisis.html#modelo-nosql",
+    "href": "analisis.html#modelo-nosql",
+    "title": "Análisis",
+    "section": "Modelo NoSQL",
+    "text": "Modelo NoSQL\nDiseñado para gestionar grandes volúmenes de datos no estructurados o semi estructurados, como documentos, gráficos o datos en clave-valor."
+  },
+  {
+    "objectID": "analisis.html#sql-structured-query-language",
+    "href": "analisis.html#sql-structured-query-language",
+    "title": "Análisis",
+    "section": "SQL (Structured Query Language)",
+    "text": "SQL (Structured Query Language)\nEs el lenguaje de consulta más utilizado en bases de datos relacionales. Permite realizar consultas complejas, manipulación de datos y definición de estructuras."
+  },
+  {
+    "objectID": "analisis.html#nosql-query-languages",
+    "href": "analisis.html#nosql-query-languages",
+    "title": "Análisis",
+    "section": "NoSQL Query Languages",
+    "text": "NoSQL Query Languages\nCada sistema NoSQL tiene su propio lenguaje de consulta, como MongoDB Query Language (MQL) para MongoDB o Cypher para bases de datos de grafos.\nBeneficios de las bases de datos. El uso de bases de datos ofrece numerosos beneficios:\n\nOrganización y estructura: Permite organizar los datos de manera coherente y estructurada, facilitando la gestión y el acceso a la información.\nEficiencia en la recuperación de datos: Las bases de datos están optimizadas para recuperar datos de manera rápida y eficiente, lo que agiliza las operaciones y consultas.\nIntegridad de datos: Las bases de datos implementan mecanismos de control de integridad para garantizar que los datos sean precisos y consistentes.\nEscalabilidad: Las bases de datos pueden crecer y adaptarse a medida que los volúmenes de datos aumentan, lo que permite manejar grandes cantidades de información.\nSeguridad: Las bases de datos ofrecen mecanismos de seguridad para proteger los datos, como la autenticación, el cifrado y los controles de acceso."
+  },
+  {
+    "objectID": "hardware.html#memoria-ram-random-access-memory",
+    "href": "hardware.html#memoria-ram-random-access-memory",
+    "title": "Hardware",
+    "section": "Memoria RAM (Random Access Memory)",
+    "text": "Memoria RAM (Random Access Memory)\nLa memoria RAM, conocida como Memoria de Acceso Aleatorio o Random Access Memory por sus siglas en inglés, constituye un tipo de memoria temporal en las computadoras. Su función principal es almacenar de manera transitoria los datos y programas que se encuentran en uso activo. Este componente esencial desempeña un papel crucial en el rendimiento del sistema mientras se ejecutan aplicaciones y tareas.\nLa RAM posibilita un acceso rápido a la información, contribuyendo a mejorar la velocidad y eficiencia del sistema. Cabe destacar que la memoria RAM se borra al apagar la computadora, ya que es de naturaleza volátil y no retiene datos a largo plazo."
+  },
+  {
+    "objectID": "hardware.html#disco-duro-o-ssd-solid-state-drive",
+    "href": "hardware.html#disco-duro-o-ssd-solid-state-drive",
+    "title": "Hardware",
+    "section": "Disco Duro o SSD (Solid State Drive)",
+    "text": "Disco Duro o SSD (Solid State Drive)\nUn disco duro es un dispositivo de almacenamiento de datos no volátil utilizado en computadoras y otros dispositivos electrónicos. Este componente es esencial para el almacenamiento de información a largo plazo.\nEn términos sencillos, el disco duro guarda y recupera datos de manera no temporal. Almacena el sistema operativo, programas, archivos y otros tipos de datos de forma permanente, incluso cuando la computadora se apaga. La capacidad de almacenamiento de un disco duro se mide en gigabytes (GB) o terabytes (TB), indicando la cantidad de datos que puede contener.\nExisten también discos duros de estado sólido (SSD), que utilizan chips de memoria flash en lugar de discos magnéticos. Los SSD son conocidos por su velocidad y durabilidad, aunque tienden a tener una capacidad de almacenamiento menor en comparación con los discos duros tradicionales. Ambos tipos de discos cumplen la función fundamental de proporcionar espacio de almacenamiento para datos en una computadora."
+  },
+  {
+    "objectID": "hardware.html#tarjeta-madre-placa-base",
+    "href": "hardware.html#tarjeta-madre-placa-base",
+    "title": "Hardware",
+    "section": "Tarjeta Madre (Placa Base)",
+    "text": "Tarjeta Madre (Placa Base)\nLa placa base, comúnmente denominada tarjeta madre o motherboard, constituye una placa de circuito impreso que desempeña un papel fundamental como componente estructural y de enlace principal en una computadora. Conecta y coordina todos los componentes del hardware en la computadora. Su función es crucial para la conexión de otros elementos de hardware (puertos de alimentación de energía, puertos de entrada y salida, ranuras para insertar los módulos de memoria RAM, el procesador, etc)."
+  },
+  {
+    "objectID": "hardware.html#tarjeta-de-video",
+    "href": "hardware.html#tarjeta-de-video",
+    "title": "Hardware",
+    "section": "Tarjeta de Video",
+    "text": "Tarjeta de Video\nUna tarjeta gráfica, o GPU (Unidad de Procesamiento Gráfico), es un componente de hardware especializado en el manejo y procesamiento de datos visuales en una computadora. Su tarea fundamental consiste en crear y transmitir señales de video hacia el monitor, posibilitando la proyección de imágenes, videos y gráficos en la pantalla. Se implementan para mejorar el rendimiento gráfico de una computadora, especialmente en tareas que requieren un procesamiento intensivo de gráficos, como juegos, diseño gráfico, edición de video y modelado 3D."
+  },
+  {
+    "objectID": "hardware.html#disco-duro-hard-drive-disk-o-ssd-solid-state-drive",
+    "href": "hardware.html#disco-duro-hard-drive-disk-o-ssd-solid-state-drive",
+    "title": "Hardware",
+    "section": "Disco Duro (Hard Drive Disk) o SSD (Solid State Drive)",
+    "text": "Disco Duro (Hard Drive Disk) o SSD (Solid State Drive)\nUn disco duro es un dispositivo de almacenamiento de datos no volátil utilizado en computadoras y otros dispositivos electrónicos. Este componente es esencial para el almacenamiento de información a largo plazo.\nEn términos sencillos, el disco duro guarda y recupera datos de manera no temporal. Almacena el sistema operativo, programas, archivos y otros tipos de datos de forma permanente, incluso cuando la computadora se apaga. La capacidad de almacenamiento de un disco duro se mide en gigabytes (GB) o terabytes (TB), indicando la cantidad de datos que puede contener.\nExisten también discos duros de estado sólido (SSD), que utilizan chips de memoria flash en lugar de discos magnéticos. Los SSD son conocidos por su velocidad y durabilidad, aunque tienden a tener una capacidad de almacenamiento menor en comparación con los discos duros tradicionales. Ambos tipos de discos cumplen la función fundamental de proporcionar espacio de almacenamiento para datos en una computadora."
+  },
+  {
+    "objectID": "hardware.html#periféricos",
+    "href": "hardware.html#periféricos",
+    "title": "Hardware",
+    "section": "Periféricos",
+    "text": "Periféricos\nEntre los dispositivos de hardware o periféricos que se pueden conectar a los puertos de la tarjeta madre se encuentran el teclado y el ratón (mouse), los cuales son dispositivos independientes que conectan a la computadora con el mundo exterior y permiten la interacción del usuarios con la máquina. Estos elementos no pertenecen al núcleo fundamental de la computadora.\nOtros dispositivos de uso externo como las unidades flash, impresoras, monitores y escaner también son instrumentos de hardware."
   }
 ]
