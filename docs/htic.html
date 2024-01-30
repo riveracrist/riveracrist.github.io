@@ -20,40 +20,6 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for syntax highlighting */
-pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
-pre > code.sourceCode > span:empty { height: 1.2em; }
-.sourceCode { overflow: visible; }
-code.sourceCode > span { color: inherit; text-decoration: inherit; }
-div.sourceCode { margin: 1em 0; }
-pre.sourceCode { margin: 0; }
-@media screen {
-div.sourceCode { overflow: auto; }
-}
-@media print {
-pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
-}
-pre.numberSource code
-  { counter-reset: source-line 0; }
-pre.numberSource code > span
-  { position: relative; left: -4em; counter-increment: source-line; }
-pre.numberSource code > span > a:first-child::before
-  { content: counter(source-line);
-    position: relative; left: -1em; text-align: right; vertical-align: baseline;
-    border: none; display: inline-block;
-    -webkit-touch-callout: none; -webkit-user-select: none;
-    -khtml-user-select: none; -moz-user-select: none;
-    -ms-user-select: none; user-select: none;
-    padding: 0 4px; width: 4em;
-  }
-pre.numberSource { margin-left: 3em;  padding-left: 4px; }
-div.sourceCode
-  {   }
-@media screen {
-pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
-}
 </style>
 
 
@@ -234,9 +200,24 @@ cookieconsent.run({
    
   <ul>
   <li><a href="#importancia-de-las-tic-en-el-desarrollo-de-software" id="toc-importancia-de-las-tic-en-el-desarrollo-de-software" class="nav-link active" data-scroll-target="#importancia-de-las-tic-en-el-desarrollo-de-software">Importancia de las TIC en el Desarrollo de Software</a></li>
-  <li><a href="#sistemas-de-información" id="toc-sistemas-de-información" class="nav-link" data-scroll-target="#sistemas-de-información">Sistemas de información</a></li>
-  <li><a href="#bases-de-datos" id="toc-bases-de-datos" class="nav-link" data-scroll-target="#bases-de-datos">Bases de datos</a></li>
-  <li><a href="#r" id="toc-r" class="nav-link" data-scroll-target="#r">R</a></li>
+  <li><a href="#sistemas-de-información" id="toc-sistemas-de-información" class="nav-link" data-scroll-target="#sistemas-de-información">Sistemas de Información</a></li>
+  <li><a href="#bases-de-datos" id="toc-bases-de-datos" class="nav-link" data-scroll-target="#bases-de-datos">Bases de Datos</a>
+  <ul class="collapse">
+  <li><a href="#modelo-jerárquico" id="toc-modelo-jerárquico" class="nav-link" data-scroll-target="#modelo-jerárquico">Modelo Jerárquico</a></li>
+  <li><a href="#modelo-de-red" id="toc-modelo-de-red" class="nav-link" data-scroll-target="#modelo-de-red">Modelo de Red</a></li>
+  <li><a href="#modelo-relacional" id="toc-modelo-relacional" class="nav-link" data-scroll-target="#modelo-relacional">Modelo Relacional</a></li>
+  <li><a href="#modelo-de-orientación-a-objetos" id="toc-modelo-de-orientación-a-objetos" class="nav-link" data-scroll-target="#modelo-de-orientación-a-objetos">Modelo de Orientación a Objetos</a></li>
+  <li><a href="#modelo-de-documentos" id="toc-modelo-de-documentos" class="nav-link" data-scroll-target="#modelo-de-documentos">Modelo de Documentos</a></li>
+  <li><a href="#modelo-de-grafos" id="toc-modelo-de-grafos" class="nav-link" data-scroll-target="#modelo-de-grafos">Modelo de Grafos:</a></li>
+  <li><a href="#modelo-multidimensional" id="toc-modelo-multidimensional" class="nav-link" data-scroll-target="#modelo-multidimensional">Modelo Multidimensional</a></li>
+  <li><a href="#modelo-temporal" id="toc-modelo-temporal" class="nav-link" data-scroll-target="#modelo-temporal">Modelo Temporal</a></li>
+  </ul></li>
+  <li><a href="#sistemas-de-gestión-de-bases-de-datos-sgbd" id="toc-sistemas-de-gestión-de-bases-de-datos-sgbd" class="nav-link" data-scroll-target="#sistemas-de-gestión-de-bases-de-datos-sgbd">Sistemas de Gestión de Bases de Datos (SGBD)</a>
+  <ul class="collapse">
+  <li><a href="#bases-de-datos-relacionales" id="toc-bases-de-datos-relacionales" class="nav-link" data-scroll-target="#bases-de-datos-relacionales"><strong>Bases de Datos Relacionales</strong></a></li>
+  <li><a href="#bases-de-datos-nosql" id="toc-bases-de-datos-nosql" class="nav-link" data-scroll-target="#bases-de-datos-nosql"><strong>Bases de Datos NoSQL</strong></a></li>
+  <li><a href="#bases-de-datos-orientadas-a-objetos-oodb" id="toc-bases-de-datos-orientadas-a-objetos-oodb" class="nav-link" data-scroll-target="#bases-de-datos-orientadas-a-objetos-oodb"><strong>Bases de Datos Orientadas a Objetos (OODB)</strong></a></li>
+  </ul></li>
   <li><a href="#referencias" id="toc-referencias" class="nav-link" data-scroll-target="#referencias">Referencias</a></li>
   </ul>
 </nav>
@@ -282,7 +263,7 @@ cookieconsent.run({
 <img src="cloud.png" class="img-fluid">
 </center>
 <p>Facilitan la comunicación y el trabajo colaborativo de manera instantánea entre equipos de desarroladores que se encuentran en diferentes puntos geogŕaficos. Las aplicaciones de mensajería, videoconferencia, así como las plataformas colaborativas en la nube facilitan la interacción entre desarrolladores, diseñadores, analistas y clientes involucrados en los proyectos.</p>
-<p>Estas herramientas fomentan la eficiencia, la calidad y la innovación durante el proceso creativo, son parte del éxito para construir software adaptable a las demandas variables del mercado y a las necesidades de los usuraios finales.</p>
+<p>Estas herramientas fomentan la eficiencia, la calidad y la innovación durante el proceso creativo, son parte del éxito para construir software adaptable a las demandas variables del mercado y a las necesidades de los usuarios finales.</p>
 <p>Los entornos de desarrollo integrado <a href="https://es.wikipedia.org/wiki/Entorno_de_desarrollo_integrado">(IDE)</a> son herramientas que optimizan el tiempo y los recursos de un equipo de trabajo, además, agilizan el proceso de programación. Los IDE tienen incorporados complementos visuales que hacen la programación de cualquier lenguaje, una tarea más placentera. Algunos de los más usados son <a href="https://posit.co/products/open-source/rstudio/">RStudio</a>, <a href="https://code.visualstudio.com/">Visual Studio Code</a> y <a href="https://www.spyder-ide.org/">Spyder</a>, pero no son las únicas herramientas que facilitan la codificación, también se ofrecen soluciones para la integración contínua y el despliegue contínuo que posibilita la implementación de cambios de manera constante, como <a href="https://www.jenkins.io/">Jenkins</a>, <a href="https://aws.amazon.com/es/codepipeline/">AWS CodePipeline</a>, <a href="https://azure.microsoft.com/es-es/products/devops/pipelines/#feature-oc660f">Azure Pipelines</a>, todo esto ocurre bajo un servidor de versionado como lo es <a href="https://git-scm.com/">Git</a>.</p>
 <p>La documentación del software es un elemento crítico en el despliegue de aplicaciones y sistemas informáticos. Consiste en la creación, actualización y organización de diversos tipos de documentos que describen el diseño, funcionamiento, implementación, mantenimiento y uso del software. Esta documentación es esencial para los diferentes roles dentro y fuera del equipo. Los procesadores de texto (<a href="https://www.microsoft.com/es-es/microsoft-365/free-office-online-for-the-web">Microsoft Word</a>, Google Docs, <a href="https://es.libreoffice.org/">LibreOffice Writer</a>, <a href="https://www.apple.com/es/pages/">Apple Pages</a>, etc), se convierten en elementos imprescindibles para ejecutar esta tarea.</p>
 <p>Otros elementos bastante útiles para crear documentación de calidad son, <a href="https://www.latex-project.org/"><span class="math inline">\(\LaTeX\)</span></a>, el cual es un sistema de composición de texto utilizado principalmente para la creación de documentos académicos y científicos, y <a href="https://www.markdownguide.org/"><em>Markdown</em></a> que es un lenguaje de marcado que se utiliza para crear documentos que pueden ser convertidos a diferentes formatos, como HTML o PDF.</p>
@@ -290,7 +271,7 @@ cookieconsent.run({
 <p>Las telecomunicaciones serían impracticables sin los dispositivos electrónicos que las llevan a cabo, todos ellos, se podrían ver como pequeñas computadoras que procesan los diferentes estados de la energía eléctrica para convertirla en información (números, imágenes, letras, videos, etc), algunos de estos dispositivos incluyen las antenas que se utilizan para transmitir y recibir señales inalámbricas, routers los cuales facilitan la transferencia de datos, modems que permiten la conexión a internet, entre otros como las computadoras personales, dispositivos de audio y video. Esta sinergia entre hardware y software (sistemas operativos, programas, aplicaciones) hacen posible el mundo digital sobre el cual navegamos a diario.</p>
 </section>
 <section id="sistemas-de-información" class="level1">
-<h1>Sistemas de información</h1>
+<h1>Sistemas de Información</h1>
 <p>Un sistema de información es un conjunto de elementos que interactúan entre sí para recopilar, procesar, almacenar y distribuir información con el fin de apoyar la toma de decisiones, la coordinación y el control dentro de una organización. Este sistema puede ser manual o automatizado, y se utiliza para capturar datos e información, procesarlos y convertirlos en conocimiento útil para la organización.</p>
 <p>Imagina que tienes muchos datos sobre algo importante, como una tienda que vende cosas. Un sistema de información te ayuda a poner todos esos datos en orden, como cuánto dinero ganaste, cuántos productos vendiste y quiénes son tus clientes. Así, puedes tomar acciones más inteligentes y hacer que todo funcione mejor. Es como tener un asistente que te ayuda a mantener todo en control y a tomar buenas decisiones. Cuando llega un cliente a la tienda y el vendedor escanea el código de barras, se activa un sistema de información que registra la venta, actualiza el inventario y realiza el seguimiento de las transacciones financieras.</p>
 <p>Un <em>eMarketplace</em> o tienda electrónica también es un buen ejemplo de sistema de información, allí se alberga información sobre cientos de productos, que pueden ser recuperados por un usuario que desee adquirlo vía electrónica, se realizan las transacciones y se actualiza el inventario del sitio.</p>
@@ -301,241 +282,96 @@ cookieconsent.run({
 <p>Los componentes de un sistema de información pueden variar según el tipo de sistema y la organización que lo utilice.</p>
 </section>
 <section id="bases-de-datos" class="level1">
-<h1>Bases de datos</h1>
-<p>Una base de datos es un conjunto organizado de información estructurada y almacenada en un sistema informático para que pueda ser accedida, gestionada y actualizada de manera eficiente.</p>
-<p>Las bases de datos suelen estar compuestas por tablas o archivos que contienen información relacionada, que se organiza de forma lógica y se almacena en el disco duro u otro medio de almacenamiento. Estos datos pueden incluir nombres, direcciones, números de teléfono, fechas, precios, descripciones, entre otros.</p>
-<p>Las bases de datos son utilizadas en una amplia variedad de aplicaciones, desde el seguimiento de clientes y ventas en un negocio hasta el almacenamiento de información científica en una universidad. Al utilizar una base de datos, se puede acceder a la información de forma rápida y eficiente, y se puede gestionar y actualizar fácilmente. Además, las bases de datos pueden ser utilizadas para realizar análisis y generar informes y estadísticas útiles para la toma de decisiones.</p>
-<p>Existen diferentes tipos de bases de datos que se utilizan en distintas aplicaciones y contextos. Algunos de los tipos de bases de datos más comunes son:</p>
-<p><strong><a href="https://es.wikipedia.org/wiki/Base_de_datos_relacional">Bases de datos relacionales:</a></strong> son las más utilizadas en el mundo empresarial y consisten en tablas que se relacionan entre sí mediante claves primarias y foráneas. Se gestionan mediante lenguajes como <a href="https://es.wikipedia.org/wiki/SQL">SQL</a> (Structured Query Language) y son muy eficientes para almacenar grandes cantidades de datos.</p>
-<p><strong>Bases de datos NoSQL:</strong> se caracterizan por no tener una estructura fija y no utilizan SQL como lenguaje de consulta. Son útiles para almacenar grandes cantidades de datos no estructurados o semiestructurados, como documentos o datos de sensores.</p>
-<p><strong>Bases de datos orientadas a objetos:</strong> están diseñadas para almacenar objetos y sus relaciones. Estas bases de datos se utilizan principalmente en aplicaciones de programación orientada a objetos y son eficientes para aplicaciones con complejidad en la estructura de datos.</p>
-<p><strong>Bases de datos espaciales:</strong> se utilizan para almacenar y gestionar información espacial y geográfica. Son útiles en aplicaciones como sistemas de información geográfica (GIS) y análisis de datos espaciales.</p>
-<p>Cada tipo de base de datos tiene sus ventajas y desventajas, y se utiliza en distintos contextos dependiendo de las necesidades de la aplicación o proyecto.</p>
+<h1>Bases de Datos</h1>
+<p>Una base de datos se refiere a un sistema organizado que almacena información de manera estructurada dentro de una computadora. Esta información puede ser accedida, administrada y actualizada de forma efectiva gracias a la organización que posee.</p>
+<p>Generalmente se forman a partir de tablas o archivos que guardan información relacionada, organizada de manera lógica y almacenada en el disco duro u otro tipo de almacenamiento. Esta información abarca datos como nombres, direcciones, números de teléfono, fechas, precios, descripciones y más.</p>
+<p>Se emplean en diversas situaciones, desde llevar el registro de clientes y ventas en una empresa hasta almacenar datos científicos en una institución educativa. Además, las bases de datos pueden ser utilizadas para realizar análisis y generar informes y estadísticas útiles para la toma de decisiones.</p>
+<p>Existen varios modelos de bases de datos, cada uno diseñado para abordar diferentes necesidades y tipos de datos. Aquí se presentan algunos de los modelos de bases de datos más comunes:</p>
+<section id="modelo-jerárquico" class="level2">
+<h2 class="anchored" data-anchor-id="modelo-jerárquico">Modelo Jerárquico</h2>
+<ul>
+<li>Organiza los datos en una estructura de árbol.</li>
+<li>Los registros están conectados en una jerarquía, donde un registro puede tener múltiples registros secundarios pero solo un registro padre.</li>
+</ul>
 </section>
-<section id="r" class="level1">
-<h1>R</h1>
-<div class="cell">
-<details open="">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Creamos un data frame con los datos</span></span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">calificaciones =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>, <span class="st">"C"</span>, <span class="st">"D"</span>, <span class="st">"F"</span>),</span>
-<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">cantidad =</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">15</span>, <span class="dv">5</span>)</span>
-<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Creamos el gráfico de barras</span></span>
-<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x =</span> calificaciones, <span class="at">y =</span> cantidad, <span class="at">fill =</span> calificaciones)) <span class="sc">+</span></span>
-<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>) <span class="sc">+</span></span>
-<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Calificaciones"</span>, <span class="at">y =</span> <span class="st">"Cantidad de estudiantes"</span>, <span class="at">title =</span> <span class="st">"Calificaciones de los estudiantes"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output-display">
-<p><img src="htic_files/figure-html/unnamed-chunk-1-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<div class="cell">
-<details open="">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb2"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Creamos un data frame con los datos</span></span>
-<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>data <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">calificaciones =</span> <span class="fu">c</span>(<span class="st">"A"</span>, <span class="st">"B"</span>, <span class="st">"C"</span>, <span class="st">"D"</span>, <span class="st">"F"</span>),</span>
-<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">cantidad =</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">20</span>, <span class="dv">30</span>, <span class="dv">15</span>, <span class="dv">5</span>)</span>
-<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Creamos el gráfico de barras</span></span>
-<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(data, <span class="fu">aes</span>(<span class="at">x =</span> calificaciones, <span class="at">y =</span> cantidad, <span class="at">fill =</span> calificaciones)) <span class="sc">+</span></span>
-<span id="cb2-11"><a href="#cb2-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_bar</span>(<span class="at">stat =</span> <span class="st">"identity"</span>, <span class="at">color =</span> <span class="st">"black"</span>, <span class="at">width =</span> <span class="fl">0.6</span>, <span class="at">alpha =</span> <span class="fl">0.8</span>) <span class="sc">+</span></span>
-<span id="cb2-12"><a href="#cb2-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">x =</span> <span class="st">"Calificaciones"</span>, <span class="at">y =</span> <span class="st">"Cantidad de estudiantes"</span>, <span class="at">title =</span> <span class="st">"Calificaciones de los estudiantes"</span>) <span class="sc">+</span></span>
-<span id="cb2-13"><a href="#cb2-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_minimal</span>() <span class="sc">+</span></span>
-<span id="cb2-14"><a href="#cb2-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">plot.title =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">20</span>, <span class="at">hjust =</span> <span class="fl">0.5</span>),</span>
-<span id="cb2-15"><a href="#cb2-15" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title.x =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>, <span class="at">color =</span> <span class="st">"gray30"</span>),</span>
-<span id="cb2-16"><a href="#cb2-16" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title.y =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">16</span>, <span class="at">color =</span> <span class="st">"gray30"</span>),</span>
-<span id="cb2-17"><a href="#cb2-17" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.text =</span> <span class="fu">element_text</span>(<span class="at">size =</span> <span class="dv">14</span>),</span>
-<span id="cb2-18"><a href="#cb2-18" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"none"</span>) <span class="sc">+</span></span>
-<span id="cb2-19"><a href="#cb2-19" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"#53c68c"</span>, <span class="st">"#a5d7a7"</span>, <span class="st">"#f9d5e5"</span>, <span class="st">"#f19cbb"</span>, <span class="st">"#c0392b"</span>))</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output-display">
-<p><img src="htic_files/figure-html/unnamed-chunk-2-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<div class="cell">
-<details open="">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb3"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear data frame con los datos</span></span>
-<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">tiempo =</span> <span class="fu">c</span>(<span class="dv">1</span>, <span class="dv">2</span>, <span class="dv">3</span>, <span class="dv">4</span>, <span class="dv">5</span>),</span>
-<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">producto1 =</span> <span class="fu">c</span>(<span class="dv">20</span>, <span class="dv">50</span>, <span class="dv">30</span>, <span class="dv">70</span>, <span class="dv">90</span>),</span>
-<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">producto2 =</span> <span class="fu">c</span>(<span class="dv">10</span>, <span class="dv">40</span>, <span class="dv">60</span>, <span class="dv">80</span>, <span class="dv">100</span>)</span>
-<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el gráfico con fondo negro</span></span>
-<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x =</span> tiempo, <span class="at">y =</span> producto1)) <span class="sc">+</span></span>
-<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="at">color =</span> <span class="st">"green"</span>, <span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
-<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_line</span>(<span class="fu">aes</span>(<span class="at">y =</span> producto2), <span class="at">color =</span> <span class="st">"yellow"</span>, <span class="at">size =</span> <span class="dv">1</span>) <span class="sc">+</span></span>
-<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"black"</span>),</span>
-<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>        <span class="at">panel.grid.major =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"red"</span>),</span>
-<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>        <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.line =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"red"</span>),</span>
-<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.text =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"red"</span>),</span>
-<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"red"</span>),</span>
-<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"red"</span>),</span>
-<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.title =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"red"</span>),</span>
-<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"black"</span>, <span class="at">color =</span> <span class="cn">NA</span>),</span>
-<span id="cb3-23"><a href="#cb3-23" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="fu">c</span>(<span class="fl">0.8</span>, <span class="fl">0.2</span>)) <span class="sc">+</span></span>
-<span id="cb3-24"><a href="#cb3-24" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Ventas de productos"</span>,</span>
-<span id="cb3-25"><a href="#cb3-25" aria-hidden="true" tabindex="-1"></a>       <span class="at">subtitle =</span> <span class="st">"Productos 1 y 2"</span>,</span>
-<span id="cb3-26"><a href="#cb3-26" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Tiempo"</span>,</span>
-<span id="cb3-27"><a href="#cb3-27" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Ventas"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: Using `size` aesthetic for lines was deprecated in ggplot2 3.4.0.
-ℹ Please use `linewidth` instead.</code></pre>
-</div>
-<div class="cell-output-display">
-<p><img src="htic_files/figure-html/unnamed-chunk-3-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<div class="cell">
-<details open="">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb5"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear data frame con los datos</span></span>
-<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>  <span class="at">grupo =</span> <span class="fu">rep</span>(<span class="fu">c</span>(<span class="st">"Grupo A"</span>, <span class="st">"Grupo B"</span>), <span class="at">each =</span> <span class="dv">100</span>),</span>
-<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">valores =</span> <span class="fu">c</span>(<span class="fu">rnorm</span>(<span class="dv">100</span>, <span class="dv">5</span>, <span class="dv">2</span>), <span class="fu">rnorm</span>(<span class="dv">100</span>, <span class="dv">8</span>, <span class="fl">1.5</span>))</span>
-<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el gráfico con fondo negro</span></span>
-<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x =</span> valores, <span class="at">fill =</span> grupo)) <span class="sc">+</span></span>
-<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">alpha =</span> <span class="fl">0.7</span>) <span class="sc">+</span></span>
-<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"white"</span>, <span class="st">"orange"</span>)) <span class="sc">+</span></span>
-<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"black"</span>),</span>
-<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>        <span class="at">panel.grid.major =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"cadetblue"</span>),</span>
-<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>        <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.line =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"cadetblue"</span>),</span>
-<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.text =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"cadetblue"</span>),</span>
-<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"cadetblue"</span>),</span>
-<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"cadetblue"</span>),</span>
-<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.title =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"cadetblue"</span>),</span>
-<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"white"</span>, <span class="at">color =</span> <span class="cn">NA</span>),</span>
-<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"top"</span>) <span class="sc">+</span></span>
-<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Densidad de valores"</span>,</span>
-<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">"Valores"</span>,</span>
-<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Densidad"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output-display">
-<p><img src="htic_files/figure-html/unnamed-chunk-4-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<div class="cell">
-<details open="">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb6"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear data frame con los datos</span></span>
-<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
-<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>df <span class="ot">&lt;-</span> <span class="fu">data.frame</span>(</span>
-<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>  <span class="at">grupo =</span> <span class="fu">rep</span>(<span class="fu">c</span>(<span class="st">"Grupo 1"</span>, <span class="st">"Grupo 2"</span>), <span class="at">each =</span> <span class="dv">50</span>),</span>
-<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>  <span class="at">variable =</span> <span class="fu">rep</span>(<span class="fu">c</span>(<span class="st">"Variable A"</span>, <span class="st">"Variable B"</span>), <span class="at">each =</span> <span class="dv">25</span>, <span class="at">times =</span> <span class="dv">2</span>),</span>
-<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>  <span class="at">valores =</span> <span class="fu">c</span>(<span class="fu">rnorm</span>(<span class="dv">25</span>, <span class="dv">5</span>, <span class="dv">2</span>), <span class="fu">rnorm</span>(<span class="dv">25</span>, <span class="dv">8</span>, <span class="fl">1.5</span>), <span class="fu">rnorm</span>(<span class="dv">25</span>, <span class="dv">6</span>, <span class="fl">1.2</span>), <span class="fu">rnorm</span>(<span class="dv">25</span>, <span class="dv">7</span>, <span class="fl">1.8</span>))</span>
-<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>)</span>
-<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear el gráfico con fondo negro</span></span>
-<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(df, <span class="fu">aes</span>(<span class="at">x =</span> variable, <span class="at">y =</span> valores, <span class="at">fill =</span> grupo)) <span class="sc">+</span></span>
-<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_boxplot</span>() <span class="sc">+</span></span>
-<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>  <span class="fu">scale_fill_manual</span>(<span class="at">values =</span> <span class="fu">c</span>(<span class="st">"cyan"</span>, <span class="st">"green"</span>)) <span class="sc">+</span></span>
-<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"black"</span>),</span>
-<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>        <span class="at">panel.grid.major =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"red"</span>),</span>
-<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>        <span class="at">panel.grid.minor =</span> <span class="fu">element_blank</span>(),</span>
-<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.line =</span> <span class="fu">element_line</span>(<span class="at">color =</span> <span class="st">"red"</span>),</span>
-<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.text =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"red"</span>),</span>
-<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>        <span class="at">axis.title =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"red"</span>),</span>
-<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.text =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"red"</span>),</span>
-<span id="cb6-22"><a href="#cb6-22" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.title =</span> <span class="fu">element_text</span>(<span class="at">color =</span> <span class="st">"red"</span>),</span>
-<span id="cb6-23"><a href="#cb6-23" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"black"</span>, <span class="at">color =</span> <span class="cn">NA</span>),</span>
-<span id="cb6-24"><a href="#cb6-24" aria-hidden="true" tabindex="-1"></a>        <span class="at">legend.position =</span> <span class="st">"top"</span>) <span class="sc">+</span></span>
-<span id="cb6-25"><a href="#cb6-25" aria-hidden="true" tabindex="-1"></a>  <span class="fu">facet_wrap</span>(<span class="sc">~</span> grupo, <span class="at">scales =</span> <span class="st">"free"</span>) <span class="sc">+</span></span>
-<span id="cb6-26"><a href="#cb6-26" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Boxplot con tres variables"</span>,</span>
-<span id="cb6-27"><a href="#cb6-27" aria-hidden="true" tabindex="-1"></a>       <span class="at">x =</span> <span class="st">""</span>,</span>
-<span id="cb6-28"><a href="#cb6-28" aria-hidden="true" tabindex="-1"></a>       <span class="at">y =</span> <span class="st">"Valores"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output-display">
-<p><img src="htic_files/figure-html/unnamed-chunk-5-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<div class="cell">
-<details open="">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb7"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Generar datos aleatorios</span></span>
-<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
-<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>datos <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1000</span>)</span>
-<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear histograma con ggplot2</span></span>
-<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> <span class="fu">data.frame</span>(<span class="at">datos =</span> datos), <span class="fu">aes</span>(<span class="at">x =</span> datos)) <span class="sc">+</span></span>
-<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="at">fill =</span> <span class="st">"gold"</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
-<span id="cb7-10"><a href="#cb7-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_dark</span>() <span class="sc">+</span></span>
-<span id="cb7-11"><a href="#cb7-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Histograma con fondo oscuro"</span>, <span class="at">x =</span> <span class="st">"Datos"</span>, <span class="at">y =</span> <span class="st">"Frecuencia"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stderr">
-<pre><code>`stat_bin()` using `bins = 30`. Pick better value with `binwidth`.</code></pre>
-</div>
-<div class="cell-output-display">
-<p><img src="htic_files/figure-html/unnamed-chunk-6-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<div class="cell">
-<details open="">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb9"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb9-1"><a href="#cb9-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb9-2"><a href="#cb9-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-3"><a href="#cb9-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Generar datos aleatorios</span></span>
-<span id="cb9-4"><a href="#cb9-4" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
-<span id="cb9-5"><a href="#cb9-5" aria-hidden="true" tabindex="-1"></a>datos <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1000</span>)</span>
-<span id="cb9-6"><a href="#cb9-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb9-7"><a href="#cb9-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear gráfico con densidad y histograma apilados</span></span>
-<span id="cb9-8"><a href="#cb9-8" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> <span class="fu">data.frame</span>(<span class="at">datos =</span> datos), <span class="fu">aes</span>(<span class="at">x =</span> datos)) <span class="sc">+</span></span>
-<span id="cb9-9"><a href="#cb9-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>, <span class="at">fill =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
-<span id="cb9-10"><a href="#cb9-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="fu">aes</span>(<span class="at">y =</span> ..density..), <span class="at">alpha =</span> <span class="fl">0.7</span>, <span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">bins =</span> <span class="dv">20</span>, <span class="at">color =</span> <span class="st">"black"</span>) <span class="sc">+</span></span>
-<span id="cb9-11"><a href="#cb9-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_dark</span>() <span class="sc">+</span></span>
-<span id="cb9-12"><a href="#cb9-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Densidad y histograma apilados"</span>, <span class="at">x =</span> <span class="st">"Datos"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output cell-output-stderr">
-<pre><code>Warning: The dot-dot notation (`..density..`) was deprecated in ggplot2 3.4.0.
-ℹ Please use `after_stat(density)` instead.</code></pre>
-</div>
-<div class="cell-output-display">
-<p><img src="htic_files/figure-html/unnamed-chunk-7-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
-<div class="cell">
-<details open="">
-<summary>Code</summary>
-<div class="sourceCode cell-code" id="cb11"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="fu">library</span>(ggplot2)</span>
-<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a><span class="co"># Generar datos aleatorios</span></span>
-<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a><span class="fu">set.seed</span>(<span class="dv">123</span>)</span>
-<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>datos <span class="ot">&lt;-</span> <span class="fu">rnorm</span>(<span class="dv">1000</span>)</span>
-<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a></span>
-<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a><span class="co"># Crear gráfico con densidad y histograma apilados con fondo negro</span></span>
-<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a><span class="fu">ggplot</span>(<span class="at">data =</span> <span class="fu">data.frame</span>(<span class="at">datos =</span> datos), <span class="fu">aes</span>(<span class="at">x =</span> datos)) <span class="sc">+</span></span>
-<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_density</span>(<span class="at">alpha =</span> <span class="fl">0.5</span>, <span class="at">fill =</span> <span class="st">"red"</span>) <span class="sc">+</span></span>
-<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>  <span class="fu">geom_histogram</span>(<span class="fu">aes</span>(<span class="at">y =</span> ..density..), <span class="at">alpha =</span> <span class="fl">0.5</span>, <span class="at">fill =</span> <span class="st">"blue"</span>, <span class="at">bins =</span> <span class="dv">20</span>, <span class="at">color =</span> <span class="st">"green"</span>) <span class="sc">+</span></span>
-<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme_dark</span>() <span class="sc">+</span></span>
-<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a>  <span class="fu">theme</span>(<span class="at">panel.background =</span> <span class="fu">element_rect</span>(<span class="at">fill =</span> <span class="st">"black"</span>)) <span class="sc">+</span></span>
-<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>  <span class="fu">labs</span>(<span class="at">title =</span> <span class="st">"Densidad y histograma apilados con fondo negro"</span>, <span class="at">x =</span> <span class="st">"Datos"</span>)</span></code><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></pre></div>
-</details>
-<div class="cell-output-display">
-<p><img src="htic_files/figure-html/unnamed-chunk-8-1.png" class="img-fluid" width="672"></p>
-</div>
-</div>
+<section id="modelo-de-red" class="level2">
+<h2 class="anchored" data-anchor-id="modelo-de-red">Modelo de Red</h2>
+<ul>
+<li>Similar al jerárquico pero permite relaciones muchos a muchos.</li>
+<li>Los registros pueden tener múltiples padres y múltiples hijos, formando una estructura de red más compleja.</li>
+</ul>
+</section>
+<section id="modelo-relacional" class="level2">
+<h2 class="anchored" data-anchor-id="modelo-relacional">Modelo Relacional</h2>
+<ul>
+<li>Organiza los datos en tablas con filas y columnas.</li>
+<li>Utiliza claves primarias y foráneas para establecer relaciones entre tablas.</li>
+<li>Es el modelo más utilizado en sistemas de gestión de bases de datos relacionales (RDBMS).</li>
+</ul>
+</section>
+<section id="modelo-de-orientación-a-objetos" class="level2">
+<h2 class="anchored" data-anchor-id="modelo-de-orientación-a-objetos">Modelo de Orientación a Objetos</h2>
+<ul>
+<li>Almacena datos como objetos que contienen atributos y métodos.</li>
+<li>Fomenta la encapsulación, herencia y polimorfismo.</li>
+<li>Utilizado en bases de datos orientadas a objetos.</li>
+</ul>
+</section>
+<section id="modelo-de-documentos" class="level2">
+<h2 class="anchored" data-anchor-id="modelo-de-documentos">Modelo de Documentos</h2>
+<ul>
+<li>Almacena datos en documentos (como JSON o BSON).</li>
+<li>Cada documento puede contener diferentes campos y estructuras, brindando flexibilidad.</li>
+</ul>
+</section>
+<section id="modelo-de-grafos" class="level2">
+<h2 class="anchored" data-anchor-id="modelo-de-grafos">Modelo de Grafos:</h2>
+<ul>
+<li>Representa datos como nodos y relaciones.</li>
+<li>Útil para modelar relaciones complejas y redes.</li>
+</ul>
+</section>
+<section id="modelo-multidimensional" class="level2">
+<h2 class="anchored" data-anchor-id="modelo-multidimensional">Modelo Multidimensional</h2>
+<ul>
+<li>Organiza datos en un formato de cubo multidimensional.</li>
+<li>Utilizado en sistemas OLAP (procesamiento analítico en línea) para análisis de datos.</li>
+</ul>
+</section>
+<section id="modelo-temporal" class="level2">
+<h2 class="anchored" data-anchor-id="modelo-temporal">Modelo Temporal</h2>
+<ul>
+<li>Maneja datos que cambian con el tiempo.</li>
+<li>Permite el seguimiento de cambios y versiones en los datos a lo largo del tiempo.</li>
+</ul>
+</section>
+</section>
+<section id="sistemas-de-gestión-de-bases-de-datos-sgbd" class="level1">
+<h1>Sistemas de Gestión de Bases de Datos (SGBD)</h1>
+<p>Los Sistemas de Gestión de Bases de Datos (SGBD) son software diseñados para administrar, controlar y manipular bases de datos. Proporcionan una interfaz para interactuar con la base de datos y realizan tareas como la creación, modificación, consulta y eliminación de datos. Algunos ejemplos de estos sistemas de SGBD son MySQL, Oracle, SQL Server y PostgreSQL.</p>
+<p><br></p>
+<blockquote class="blockquote">
+<p>Cada tipo de base de datos tiene sus ventajas y desventajas, y se utiliza en distintos contextos dependiendo de las necesidades de la aplicación o proyecto. A continuación se profundiza un poco en la definición de algunas de los sistemas de bases de datos.</p>
+</blockquote>
+<p><br></p>
+<section id="bases-de-datos-relacionales" class="level2">
+<h2 class="anchored" data-anchor-id="bases-de-datos-relacionales"><strong>Bases de Datos Relacionales</strong></h2>
+<p>Son las más utilizadas en el mundo empresarial, es un tipo de sistema de gestión de bases de datos (DBMS) que organiza la información en tablas relacionadas entre sí. Estas tablas están compuestas por filas y columnas, donde cada fila representa un registro único y cada columna representa un atributo específico. La relación entre las tablas se establece a través de claves primarias y foráneas, permitiendo una estructura organizada y coherente para almacenar y recuperar datos.</p>
+<p>Este modelo facilita la consulta y manipulación de la información de manera eficiente, siguiendo los <a href="https://bookdown.org/paranedagarcia/database/el-modelo-relacional.html">principios de la teoría de bases de datos relacionales</a>. Se gestionan mediante lenguajes como <a href="https://es.wikipedia.org/wiki/SQL">SQL</a> (Structured Query Language) y son muy eficientes para almacenar grandes cantidades de datos.</p>
+<p>Ejemplos de DBMS relacionales incluyen <a href="https://www.mysql.com/">MySQL</a>, <a href="https://www.postgresql.org/">PostgreSQL</a> y <a href="https://www.microsoft.com/en-us/sql-server/sql-server-2022">Microsoft SQL Server</a>.</p>
+</section>
+<section id="bases-de-datos-nosql" class="level2">
+<h2 class="anchored" data-anchor-id="bases-de-datos-nosql"><strong>Bases de Datos NoSQL</strong></h2>
+<p>Es un tipo de sistema de gestión de bases de datos diseñado para manejar grandes volúmenes de datos no estructurados o semiestructurados. A diferencia de las bases de datos relacionales, las bases de datos NoSQL no utilizan un esquema fijo con tablas y relaciones, permitiendo una mayor flexibilidad en el almacenamiento y recuperación de datos. Son útiles para almacenar documentos, datos de sensores o gráficos.</p>
+<p>Ejemplos de bases de datos NoSQL incluyen <a href="https://www.mongodb.com/es">MongoDB</a>, <a href="https://cassandra.apache.org/_/index.html">Cassandra</a>, <a href="https://couchdb.apache.org/">CouchDB</a> y <a href="https://redis.io/">Redis</a>.</p>
+<p>Estas bases de datos son especialmente útiles en entornos donde la velocidad y la adaptabilidad a diferentes tipos de datos son prioritarias.</p>
+</section>
+<section id="bases-de-datos-orientadas-a-objetos-oodb" class="level2">
+<h2 class="anchored" data-anchor-id="bases-de-datos-orientadas-a-objetos-oodb"><strong>Bases de Datos Orientadas a Objetos (OODB)</strong></h2>
+<p>Son sistemas de gestión de bases de datos diseñados para almacenar, manipular y recuperar objetos en lugar de datos tabulares como en las bases de datos relacionales. Están basadas en los principios de la <a href="https://es.wikipedia.org/wiki/Programaci%C3%B3n_orientada_a_objetos">programación orientada a objetos</a> (OOP, por sus siglas en inglés, Object-Oriented Programming) y permiten representar estructuras de datos complejas de manera más natural.</p>
+<p>Están diseñadas para almacenar objetos y sus relaciones. Estas bases de datos se utilizan principalmente en aplicaciones de programación orientada a objetos y son eficientes para aplicaciones con complejidad en la estructura de datos.</p>
+<p>Algunos ejemplos de bases de datos orientadas a objetos incluyen <a href="https://en.wikipedia.org/wiki/Db4o">db4o</a>, <a href="https://www.objectdb.com/">ObjectDB</a> y <a href="https://zodb.org/en/latest/">ZODB</a>.</p>
+</section>
 </section>
 <section id="referencias" class="level1">
 <h1>Referencias</h1>
@@ -898,7 +734,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     <div class="nav-footer-left">
       &nbsp;
     </div>   
-    <div class="nav-footer-center">Página web creada con <a href="https://quarto.org/">Quarto</a>. Cristian Rivera G.<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-center">Página web creada con <a href="https://quarto.org/">Quarto</a>. <a href="https://cristianriverag.netlify.app/">Cristian Rivera G.</a><div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
     <li class="nav-item compact">
