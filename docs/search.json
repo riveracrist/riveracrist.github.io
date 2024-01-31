@@ -221,7 +221,7 @@
     "href": "software.html#mantenimiento",
     "title": "Software",
     "section": "Mantenimiento",
-    "text": "Mantenimiento\nEn la fase de Mantenimiento, se llevan a cabo modificaciones, actualizaciones, correcciones de fallos y mejoras en el software con el objetivo de asegurar su desempeño continuo y adaptarse a las nuevas exigencias que puedan surgir con el tiempo.\nEstas etapas no son necesariamente lineales y secuenciales. En muchos casos, el ciclo de vida del software sigue un enfoque iterativo e incremental, donde las etapas se repiten y se superponen para mejorar continuamente el producto en respuesta a la retroalimentación del usuario y los cambios en los requisitos.\nEl entendimiento del ciclo de vida del software es esencial para los equipos de desarrollo, ya que proporciona un marco de referencia para la gestión, planificación, seguimiento y control de los proyectos de desarrollo de software."
+    "text": "Mantenimiento\nEn la fase de Mantenimiento, se llevan a cabo modificaciones, actualizaciones, correcciones de fallos y mejoras en el software con el objetivo de asegurar su desempeño continuo y adaptarse a las nuevas exigencias que puedan surgir con el tiempo.\n\n\nEstas etapas no son necesariamente lineales y secuenciales. En muchos casos, el ciclo de vida del software sigue un enfoque iterativo e incremental, donde las etapas se repiten y se superponen para mejorar continuamente el producto en respuesta a la retroalimentación del usuario y los cambios en los requisitos.\nEl entendimiento del ciclo de vida del software es esencial para los equipos de desarrollo, ya que proporciona un marco de referencia para la gestión, planificación, seguimiento y control de los proyectos de desarrollo de software."
   },
   {
     "objectID": "blog.html",
@@ -291,7 +291,7 @@
     "href": "analisis.html",
     "title": "Análisis",
     "section": "",
-    "text": "El conocimiento adquiere verdadero valor cuando se comparte.\n\n\n\n\n Back to top"
+    "text": "Primera\n\n\n\n\n\n\n\n\n\n\nSegunda\n\n\n\n\n\n\n\n\n\n\nTercera"
   },
   {
     "objectID": "analisis.html#modelo-relacional",
@@ -502,5 +502,26 @@
     "title": "Herramientas TIC",
     "section": "Modelo Jerárquico",
     "text": "Modelo Jerárquico\n\nOrganiza los datos en una estructura de árbol.\nLos registros están conectados en una jerarquía, donde un registro puede tener múltiples registros secundarios pero solo un registro padre."
+  },
+  {
+    "objectID": "htic.html#modelo-orientado-a-objetos",
+    "href": "htic.html#modelo-orientado-a-objetos",
+    "title": "Herramientas TIC",
+    "section": "Modelo Orientado a Objetos",
+    "text": "Modelo Orientado a Objetos\n\nAlmacena datos como objetos que contienen atributos y métodos.\nFomenta la encapsulación, herencia y polimorfismo.\nUtilizado en bases de datos orientadas a objetos."
+  },
+  {
+    "objectID": "analisis.html#enfoque-sistémico",
+    "href": "analisis.html#enfoque-sistémico",
+    "title": "Análisis",
+    "section": "Enfoque Sistémico",
+    "text": "Enfoque Sistémico\nEs una manera de analizar cosas que se basa en la teoría general de sistemas. Ayuda a pensar de manera amplia y crítica acerca de lo que sucede en un sistema, ya sean fenómenos, problemas o situaciones. Este método busca entender de manera completa lo que está pasando en el sistema.\nIntenta entender cómo funciona una organización o un objeto de estudio desde una perspectiva holística. Se enfoca en ver cómo se relacionan todas las partes entre sí, dándole importancia a esas conexiones.\nEl objetivo del enfoque sistémico es analizar las relaciones e interconexiones que existen entre los elementos."
+  },
+  {
+    "objectID": "analisis.html#elementos-de-un-sistema",
+    "href": "analisis.html#elementos-de-un-sistema",
+    "title": "Análisis",
+    "section": "Elementos de un Sistema",
+    "text": "Elementos de un Sistema\nUn componente de un sistema es una pieza individual que forma parte de un sistema más grande y está conectada con el conjunto total, es decir, con el sistema en su totalidad.\nEstos elementos pueden ser físicos o conceptuales, personas, procesos, tecnologías, formularios, archivos, datos, instalaciones o cualquier entidad que contribuya al funcionamiento del sistema.\n\nLos sistemas se caracterizan por su capacidad de recepción de elementos los cuales son denominados como entradas (flujos de información, energía o materiales que entran). Las entradas pasan por un proceso de transformación a través de procesos, que dan como resultado una respuesta o salida.\nLa salida, o parte de ella, puede convertirse nuevamente en entrada, proceso que se conoce como retroalimentación, el cual ayuda a mejorar las respuestas, el comportamiento del sistema, y permite el control o vigilancia para una posterior automatización del sistema.\nAlgunos conceptos adicionales en la teoría general de sistemas son:\n\nInterrelación: Las conexiones y relaciones entre los elementos del sistema.\nInterdependencia: La dependencia mutua entre los elementos, donde las acciones o cambios en un elemento afectan a otros.\nObjetivo Común o Propósito: Un objetivo o meta que motiva la existencia y funcionamiento del sistema.\nLímites o Fronteras: Los límites que definen qué está dentro del sistema y qué está fuera.\nProcesos o Funciones: Las actividades o acciones que realiza el sistema para transformar entradas en salidas."
   }
 ]

@@ -206,11 +206,9 @@ cookieconsent.run({
   <li><a href="#modelo-jerárquico" id="toc-modelo-jerárquico" class="nav-link" data-scroll-target="#modelo-jerárquico">Modelo Jerárquico</a></li>
   <li><a href="#modelo-de-red" id="toc-modelo-de-red" class="nav-link" data-scroll-target="#modelo-de-red">Modelo de Red</a></li>
   <li><a href="#modelo-relacional" id="toc-modelo-relacional" class="nav-link" data-scroll-target="#modelo-relacional">Modelo Relacional</a></li>
-  <li><a href="#modelo-de-orientación-a-objetos" id="toc-modelo-de-orientación-a-objetos" class="nav-link" data-scroll-target="#modelo-de-orientación-a-objetos">Modelo de Orientación a Objetos</a></li>
+  <li><a href="#modelo-orientado-a-objetos" id="toc-modelo-orientado-a-objetos" class="nav-link" data-scroll-target="#modelo-orientado-a-objetos">Modelo Orientado a Objetos</a></li>
   <li><a href="#modelo-de-documentos" id="toc-modelo-de-documentos" class="nav-link" data-scroll-target="#modelo-de-documentos">Modelo de Documentos</a></li>
   <li><a href="#modelo-de-grafos" id="toc-modelo-de-grafos" class="nav-link" data-scroll-target="#modelo-de-grafos">Modelo de Grafos:</a></li>
-  <li><a href="#modelo-multidimensional" id="toc-modelo-multidimensional" class="nav-link" data-scroll-target="#modelo-multidimensional">Modelo Multidimensional</a></li>
-  <li><a href="#modelo-temporal" id="toc-modelo-temporal" class="nav-link" data-scroll-target="#modelo-temporal">Modelo Temporal</a></li>
   </ul></li>
   <li><a href="#sistemas-de-gestión-de-bases-de-datos-sgbd" id="toc-sistemas-de-gestión-de-bases-de-datos-sgbd" class="nav-link" data-scroll-target="#sistemas-de-gestión-de-bases-de-datos-sgbd">Sistemas de Gestión de Bases de Datos (SGBD)</a>
   <ul class="collapse">
@@ -284,6 +282,10 @@ cookieconsent.run({
 <section id="bases-de-datos" class="level1">
 <h1>Bases de Datos</h1>
 <p>Una base de datos se refiere a un sistema organizado que almacena información de manera estructurada dentro de una computadora. Esta información puede ser accedida, administrada y actualizada de forma efectiva gracias a la organización que posee.</p>
+<center>
+<img src="database-management.png" class="img-fluid">
+</center>
+<p><br></p>
 <p>Generalmente se forman a partir de tablas o archivos que guardan información relacionada, organizada de manera lógica y almacenada en el disco duro u otro tipo de almacenamiento. Esta información abarca datos como nombres, direcciones, números de teléfono, fechas, precios, descripciones y más.</p>
 <p>Se emplean en diversas situaciones, desde llevar el registro de clientes y ventas en una empresa hasta almacenar datos científicos en una institución educativa. Además, las bases de datos pueden ser utilizadas para realizar análisis y generar informes y estadísticas útiles para la toma de decisiones.</p>
 <p>Existen varios modelos de bases de datos, cada uno diseñado para abordar diferentes necesidades y tipos de datos. Aquí se presentan algunos de los modelos de bases de datos más comunes:</p>
@@ -293,6 +295,9 @@ cookieconsent.run({
 <li>Organiza los datos en una estructura de árbol.</li>
 <li>Los registros están conectados en una jerarquía, donde un registro puede tener múltiples registros secundarios pero solo un registro padre.</li>
 </ul>
+<center>
+<p><img src="hierarchical-structure.png" class="img-fluid"></p>
+</center>
 </section>
 <section id="modelo-de-red" class="level2">
 <h2 class="anchored" data-anchor-id="modelo-de-red">Modelo de Red</h2>
@@ -300,6 +305,9 @@ cookieconsent.run({
 <li>Similar al jerárquico pero permite relaciones muchos a muchos.</li>
 <li>Los registros pueden tener múltiples padres y múltiples hijos, formando una estructura de red más compleja.</li>
 </ul>
+<center>
+<p><img src="data-modelling.png" class="img-fluid"></p>
+</center>
 </section>
 <section id="modelo-relacional" class="level2">
 <h2 class="anchored" data-anchor-id="modelo-relacional">Modelo Relacional</h2>
@@ -308,14 +316,20 @@ cookieconsent.run({
 <li>Utiliza claves primarias y foráneas para establecer relaciones entre tablas.</li>
 <li>Es el modelo más utilizado en sistemas de gestión de bases de datos relacionales (RDBMS).</li>
 </ul>
+<center>
+<p><img src="relational-modelling.png" class="img-fluid"></p>
+</center>
 </section>
-<section id="modelo-de-orientación-a-objetos" class="level2">
-<h2 class="anchored" data-anchor-id="modelo-de-orientación-a-objetos">Modelo de Orientación a Objetos</h2>
+<section id="modelo-orientado-a-objetos" class="level2">
+<h2 class="anchored" data-anchor-id="modelo-orientado-a-objetos">Modelo Orientado a Objetos</h2>
 <ul>
 <li>Almacena datos como objetos que contienen atributos y métodos.</li>
 <li>Fomenta la encapsulación, herencia y polimorfismo.</li>
 <li>Utilizado en bases de datos orientadas a objetos.</li>
 </ul>
+<center>
+<p><img src="computer.png" class="img-fluid"></p>
+</center>
 </section>
 <section id="modelo-de-documentos" class="level2">
 <h2 class="anchored" data-anchor-id="modelo-de-documentos">Modelo de Documentos</h2>
@@ -323,6 +337,9 @@ cookieconsent.run({
 <li>Almacena datos en documentos (como JSON o BSON).</li>
 <li>Cada documento puede contener diferentes campos y estructuras, brindando flexibilidad.</li>
 </ul>
+<center>
+<p><img src="json.png" class="img-fluid"></p>
+</center>
 </section>
 <section id="modelo-de-grafos" class="level2">
 <h2 class="anchored" data-anchor-id="modelo-de-grafos">Modelo de Grafos:</h2>
@@ -330,25 +347,42 @@ cookieconsent.run({
 <li>Representa datos como nodos y relaciones.</li>
 <li>Útil para modelar relaciones complejas y redes.</li>
 </ul>
-</section>
-<section id="modelo-multidimensional" class="level2">
-<h2 class="anchored" data-anchor-id="modelo-multidimensional">Modelo Multidimensional</h2>
-<ul>
-<li>Organiza datos en un formato de cubo multidimensional.</li>
-<li>Utilizado en sistemas OLAP (procesamiento analítico en línea) para análisis de datos.</li>
-</ul>
-</section>
-<section id="modelo-temporal" class="level2">
-<h2 class="anchored" data-anchor-id="modelo-temporal">Modelo Temporal</h2>
-<ul>
-<li>Maneja datos que cambian con el tiempo.</li>
-<li>Permite el seguimiento de cambios y versiones en los datos a lo largo del tiempo.</li>
-</ul>
+<center>
+<p><img src="graphs.png" class="img-fluid"></p>
+</center>
 </section>
 </section>
 <section id="sistemas-de-gestión-de-bases-de-datos-sgbd" class="level1">
 <h1>Sistemas de Gestión de Bases de Datos (SGBD)</h1>
 <p>Los Sistemas de Gestión de Bases de Datos (SGBD) son software diseñados para administrar, controlar y manipular bases de datos. Proporcionan una interfaz para interactuar con la base de datos y realizan tareas como la creación, modificación, consulta y eliminación de datos. Algunos ejemplos de estos sistemas de SGBD son MySQL, Oracle, SQL Server y PostgreSQL.</p>
+<div class="quarto-layout-panel">
+<div class="quarto-layout-row quarto-layout-valign-top">
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="mysql.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">MySQL</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="oracle.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">Oracle</figcaption>
+</figure>
+</div>
+</div>
+<div class="quarto-layout-cell" style="flex-basis: 33.3%;justify-content: center;">
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="postgresql.png" class="img-fluid figure-img"></p>
+<figcaption class="figure-caption">PostgreSQL</figcaption>
+</figure>
+</div>
+</div>
+</div>
+</div>
 <p><br></p>
 <blockquote class="blockquote">
 <p>Cada tipo de base de datos tiene sus ventajas y desventajas, y se utiliza en distintos contextos dependiendo de las necesidades de la aplicación o proyecto. A continuación se profundiza un poco en la definición de algunas de los sistemas de bases de datos.</p>
