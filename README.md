@@ -1,5 +1,4 @@
-# [Análisis y Desarrollo de Software · Cristian Rivera](riveracrist.github.io
-)
+# [Análisis y Desarrollo de Software · Cristian Rivera](riveracrist.github.io)
 
 sitio web GitHub page estático donde se presenta de forma general el rol del Analista y Desarrollador de Software y las tareas asociadas a esta profesión.
 
