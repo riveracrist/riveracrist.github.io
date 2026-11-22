@@ -1,6 +1,7 @@
-# Bitácora SDLC · Cristian Rivera
+# [Análisis y Desarrollo de Software · Cristian Rivera](riveracrist.github.io
+)
 
-Portafolio educativo en español sobre análisis y desarrollo de software. Incluye una guía de ocho fases, un caso práctico de gestión de tareas y una demo interactiva que guarda datos localmente en el navegador.
+sitio web GitHub page estático donde se presenta de forma general el rol del Analista y Desarrollador de Software y las tareas asociadas a esta profesión.
 
 ## Tecnologías
 
