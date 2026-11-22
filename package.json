@@ -1,0 +1,20 @@
+{
+  "name": "github-page-mejora",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "test": "node --test tests/*.test.mjs",
+    "test:site": "node scripts/check-site.mjs",
+    "test:browser": "node scripts/check-browser.mjs"
+  },
+  "dependencies": {
+    "astro": "6.3.1"
+  }
+}

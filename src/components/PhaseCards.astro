@@ -1,0 +1,5 @@
+---
+import { phases } from '../data/phases.js';
+const base = import.meta.env.BASE_URL;
+---
+<div class="phase-grid">{phases.map((phase, index) => <a class="phase-card" href={base + 'fases/#' + phase.id}><span class="phase-index">{String(index + 1).padStart(2, '0')}</span><h3>{phase.title}</h3><p>{phase.short}</p><span class="card-link">Explorar fase</span></a>)}</div>

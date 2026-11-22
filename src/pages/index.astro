@@ -1,0 +1,44 @@
+---
+import Base from '../layouts/Base.astro';
+import PhaseCards from '../components/PhaseCards.astro';
+import { phases } from '../data/phases.js';
+const base = import.meta.env.BASE_URL;
+---
+<Base title="Analizar, diseñar, construir" description="Guía didáctica e interactiva para aprender las fases del análisis y desarrollo de software.">
+  <section class="hero wrap">
+    <div class="hero-copy"><p class="eyebrow"><span class="live-dot"></span> Análisis y Desarrollo de Software</p><h1>El software<br /><em>está vivo.</em></h1><p class="hero-intro">El analista y desarrollador escucha una necesidad, descubre el problema detrás de ella y la convierte en requisitos claros. Después modela la solución, diseña datos e interfaces, construye sus componentes y los prueba con quienes la usarán. El proceso transforma una idea en una herramienta de software útil, desplegable y capaz de evolucionar. Aquí puedes seguir ese trabajo fase por fase, desde la conversación inicial hasta el producto que resuelve el problema.</p><div class="actions"><a class="button primary" href={base + 'fases/'}>Recorrer el ciclo</a><a class="button secondary" href={base + 'caso/'}>Ir al caso práctico</a></div><div class="skills"><span>Aprende por fases</span><span>Conecta teoría y práctica</span></div><p class="evolution-line">El software está vivo <i>·</i> Es cambiante <i>·</i> Evoluciona</p></div>
+    <figure class="hero-art evolution-graphic" aria-labelledby="evolution-caption">
+      <svg viewBox="0 0 520 520" role="img" aria-labelledby="evolution-title evolution-desc">
+        <title id="evolution-title">El software evoluciona en ciclos de aprendizaje</title>
+        <desc id="evolution-desc">Una trayectoria circular conecta comprender, diseñar, construir, validar y desplegar. Cada vuelta incorpora cambios y mejora el software a partir del uso.</desc>
+        <defs>
+          <linearGradient id="cycleStroke" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#77e7b8"/><stop offset=".52" stop-color="#4bafdb"/><stop offset="1" stop-color="#bc9aff"/></linearGradient>
+          <radialGradient id="coreGlow"><stop stop-color="#275b49"/><stop offset="1" stop-color="#1a2b23"/></radialGradient>
+          <marker id="cycleArrow" markerWidth="10" markerHeight="10" refX="7" refY="5" orient="auto"><path d="M0 0 10 5 0 10z" fill="#a5edca"/></marker>
+        </defs>
+        <circle class="orbit orbit-back" cx="260" cy="260" r="190"/>
+        <path class="cycle-path" d="M258 70 A190 190 0 0 1 449 258" marker-end="url(#cycleArrow)"/>
+        <path class="cycle-path cycle-path-two" d="M449 262 A190 190 0 0 1 262 450" marker-end="url(#cycleArrow)"/>
+        <path class="cycle-path cycle-path-three" d="M258 450 A190 190 0 0 1 70 262" marker-end="url(#cycleArrow)"/>
+        <path class="cycle-path cycle-path-four" d="M70 258 A190 190 0 0 1 258 70" marker-end="url(#cycleArrow)"/>
+        <circle class="orbit orbit-inner" cx="260" cy="260" r="142"/>
+        <g class="cycle-node node-analizar"><circle r="35"/><text y="-3">ANALIZAR</text><text class="node-sub" y="12">necesidad</text></g>
+        <g class="cycle-node node-disenar"><circle r="35"/><text y="-3">DISEÑAR</text><text class="node-sub" y="12">solución</text></g>
+        <g class="cycle-node node-construir"><circle r="35"/><text y="-3">CONSTRUIR</text><text class="node-sub" y="12">software</text></g>
+        <g class="cycle-node node-validar"><circle r="35"/><text y="-3">VALIDAR</text><text class="node-sub" y="12">con usuarios</text></g>
+        <circle class="core" cx="260" cy="260" r="94"/>
+        <path class="core-mark" d="m231 247 19-18 19 18-19 18z M269 273l19-18 19 18-19 18z"/>
+        <text class="core-title" x="260" y="316" text-anchor="middle">SOFTWARE</text>
+        <text class="outer-label label-top" x="260" y="27" text-anchor="middle">UNA IDEA SE VUELVE PRODUCTO</text>
+        <text class="outer-label label-bottom" x="260" y="502" text-anchor="middle">USO REAL · APRENDIZAJE · NUEVA VERSIÓN</text>
+        <circle class="change-dot" cx="386" cy="107" r="6"/><circle class="change-dot dot-two" cx="142" cy="394" r="4"/><circle class="change-dot dot-three" cx="414" cy="359" r="4"/>
+      </svg>
+      <figcaption id="evolution-caption">Cada ciclo entrega una versión; el uso revela qué debe cambiar en la siguiente.</figcaption>
+    </figure>
+    <div class="hero-index"><span>01 — 08</span><span>Un recorrido de principio a fin</span><span>01</span></div>
+  </section>
+  <section class="section wrap"><div class="section-head"><div><p class="eyebrow">EL RECORRIDO</p><h2>Ocho fases conectadas entre sí.</h2></div><a class="text-link" href={base + 'fases/'}>Ver guía completa</a></div><PhaseCards /></section>
+  <section class="case-strip"><div class="wrap case-inner"><div><p class="eyebrow">APRENDER HACIENDO</p><h2>De notas dispersas a una lista que funciona.</h2><p>Seguimos el diseño de un gestor de tareas personales: requerimientos, diagramas, datos, implementación en el navegador y un plan realista para publicarlo.</p><a class="button light" href={base + 'caso/'}>Seguir el proyecto</a></div><div class="mini-board" aria-label="Ejemplo visual de gestor de tareas"><div class="board-top"><span>Esta semana</span><span class="board-count">3 tareas</span></div><div class="task-row"><i class="check"></i><span>Definir alcance del MVP</span><b class="priority high">Alta</b></div><div class="task-row"><i class="check done">✓</i><span class="complete">Modelar tareas y estados</span><b class="priority medium">Media</b></div><div class="task-row"><i class="check"></i><span>Probar filtros de prioridad</span><b class="priority low">Baja</b></div><div class="board-foot"><span>Guardado local en el navegador</span><i>● ● ●</i></div></div></div></section>
+  <section class="section wrap toolkit"><div><p class="eyebrow">HERRAMIENTAS CON SENTIDO</p><h2>Elegir herramientas<br />según el trabajo.</h2><p>Primero el objetivo de cada fase. Después, la herramienta que lo facilita. Las opciones abiertas permiten replicar este recorrido sin licencias pagas.</p></div><div class="tool-list">{['Git y GitHub','Astro · HTML · CSS','Mermaid y diagrams.net','Vitest y Playwright','GitHub Actions'].map((tool, i) => <div class="tool-item"><span>0{i+1}</span><strong>{tool}</strong><span class="tool-arrow">↗</span></div>)}</div></section>
+  <section class="next-step"><div class="wrap next-inner"><p>EMPIEZA POR EL PROBLEMA</p><h2>Un buen producto empieza<br />con una buena pregunta.</h2><a class="button primary" href={base + 'fases/#problema'}>Explorar la primera fase</a></div></section>
+</Base>
